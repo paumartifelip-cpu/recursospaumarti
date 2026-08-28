@@ -4,7 +4,7 @@
 const VIDEOS_DATA = [
   {
     id: "google-modo-ia",
-    title: "Posicionar tu página web en el nuevo modo Google con IA",
+    title: "Google modo IA posicionamiento",
     category: "SEO e Inteligencia Artificial",
     tags: ["SEO", "AI Overviews", "Modo IA", "Google"],
     docUrl: "https://docs.google.com/document/d/1wCIv92J1CR5WX_NF8tAYjOLP8yqIfaK0bd6OHmTT2hk/edit?tab=t.0",
@@ -24,7 +24,7 @@ const VIDEOS_DATA = [
   },
   {
     id: "tareas-servicios",
-    title: "Vídeo: Tareas para Servicios",
+    title: "Gemini Spark tareas para servicios",
     category: "Automatización y Negocio",
     tags: ["Servicios", "Clientes", "Facturación", "Productividad", "Automatizaciones"],
     docUrl: "https://docs.google.com/document/d/1wCIv92J1CR5WX_NF8tAYjOLP8yqIfaK0bd6OHmTT2hk/edit?tab=t.0#heading=h.umluiagdim5g",
@@ -95,7 +95,7 @@ const VIDEOS_DATA = [
   },
   {
     id: "tareas-creadores-contenido",
-    title: "Vídeo: Tareas para Empresas que Crean Contenido",
+    title: "Gemini Spark tareas para empresas que crean contenido",
     category: "Creación de Contenido",
     tags: ["Contenido", "YouTube", "Redes Sociales", "Canva", "Shorts"],
     docUrl: "https://docs.google.com/document/d/1wCIv92J1CR5WX_NF8tAYjOLP8yqIfaK0bd6OHmTT2hk/edit?tab=t.0#heading=h.8h5ci16s1wag",
@@ -166,7 +166,7 @@ const VIDEOS_DATA = [
   },
   {
     id: "gemini-37-flash",
-    title: "Prompts — Vídeo \"Gemini 3.7 Flash\"",
+    title: "Gemini 3.7 Flash",
     category: "Modelos y Aplicaciones",
     tags: ["Gemini 3.7", "Webs", "PDFs", "Mini-Apps", "Spark"],
     docUrl: "https://docs.google.com/document/d/1wCIv92J1CR5WX_NF8tAYjOLP8yqIfaK0bd6OHmTT2hk/edit?tab=t.0#heading=h.6m6frdrqfs02",
@@ -313,7 +313,7 @@ const VIDEOS_DATA = [
   },
   {
     id: "google-ai-studio",
-    title: "Prompts del vídeo \"Google AI Studio\" — Todos los ejemplos + Extras",
+    title: "Google AI Studio",
     category: "Google AI Studio",
     tags: ["AI Studio", "Gemini 3.7", "Nano Banana", "Veo", "Audio", "Modelos"],
     docUrl: "https://docs.google.com/document/d/1wCIv92J1CR5WX_NF8tAYjOLP8yqIfaK0bd6OHmTT2hk/edit?tab=t.0#heading=h.niv0ofkh4lyh",
@@ -558,7 +558,7 @@ const VIDEOS_DATA = [
   },
   {
     id: "google-nano-banana-prompts-visuales",
-    title: "Google Nano Banana: Biblioteca de Prompts Visuales",
+    title: "Google Nano Banana",
     category: "Generación de Imágenes",
     tags: ["Nano Banana", "Imágenes", "Fotografía", "Editorial", "Posters", "Fondos", "Apple Style"],
     description: "Colección curada de prompts fotográficos y visuales de alta gama: estilo Apple, retratos, arquitectura, producto, posters tipográficos, infografías y reemplazo de fondos.",
