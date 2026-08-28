@@ -5,6 +5,7 @@ const VIDEOS_DATA = [
   {
     id: "google-modo-ia",
     title: "Google modo IA posicionamiento",
+    thumbnail: "thumbnails/google modo ia.png",
     category: "SEO e Inteligencia Artificial",
     tags: ["SEO", "AI Overviews", "Modo IA", "Google"],
     docUrl: "https://docs.google.com/document/d/1wCIv92J1CR5WX_NF8tAYjOLP8yqIfaK0bd6OHmTT2hk/edit?tab=t.0",
