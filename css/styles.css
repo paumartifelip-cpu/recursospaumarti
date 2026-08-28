@@ -1,47 +1,59 @@
 /* ==========================================================================
-   Recursos de Pau Martí — Minimalismo Google & Apple (Fondo Blanco Puro y Cuadrado)
+   Recursos de Pau Martí — Estilo Blanco Puro con Acentos Vivos de Google
    ========================================================================== */
 
 :root {
+  /* Google 4-Color Brand Palette */
+  --google-blue: #1a73e8;
+  --google-blue-hover: #1557b0;
+  --google-blue-subtle: #e8f0fe;
+  --google-blue-text: #1967d2;
+  --google-blue-border: #aecbfa;
+
+  --google-red: #ea4335;
+  --google-red-hover: #d93025;
+  --google-red-subtle: #fce8e6;
+  --google-red-text: #c5221f;
+  --google-red-border: #f6aea9;
+
+  --google-yellow: #fbbc04;
+  --google-yellow-hover: #f29900;
+  --google-yellow-subtle: #fef7e0;
+  --google-yellow-text: #b06000;
+  --google-yellow-border: #fde293;
+
+  --google-green: #34a853;
+  --google-green-hover: #1e8e3e;
+  --google-green-subtle: #e6f4ea;
+  --google-green-text: #137333;
+  --google-green-border: #a8dab5;
+
   /* Fondo Blanco Puro y Superficies */
   --bg-main: #ffffff;
   --bg-surface: #ffffff;
-  --bg-surface-variant: #f9fafb;
+  --bg-surface-variant: #f8f9fa;
   --bg-code: #ffffff;
-  --bg-chip: #f3f4f6;
-  --bg-chip-hover: #e5e7eb;
-  --bg-active-pill: #111827;
+  --bg-chip: #f1f3f4;
+  --bg-chip-hover: #e8eaed;
+  --bg-active-pill: #1a73e8;
   --text-active-pill: #ffffff;
 
   /* Bordes Limpios y Delgados */
   --border-color: #e5e7eb;
   --border-subtle: #f3f4f6;
   --border-strong: #d1d5db;
-  --border-focus: #111827;
+  --border-focus: #1a73e8;
 
   /* Tipografía de Alto Contraste */
   --text-primary: #111827;
   --text-secondary: #4b5563;
   --text-muted: #6b7280;
 
-  /* Acentos Sutiles */
-  --accent-color: #1a73e8;
-  --accent-subtle: #eff6ff;
-  --accent-text: #1d4ed8;
-
-  --success-color: #15803d;
-  --success-bg: #f0fdf4;
-  --success-border: #86efac;
-
-  --warning-bg: #fffbeb;
-  --warning-border: #fde68a;
-  --warning-text: #92400e;
-
-  /* Sombras Delicadas estilo Apple / Google */
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
-  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.03);
-  --shadow-card-hover: 0 4px 12px rgba(0, 0, 0, 0.08);
-  --shadow-toast: 0 4px 20px rgba(0, 0, 0, 0.15);
+  /* Sombras Delicadas */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
+  --shadow-card: 0 1px 3px rgba(60, 64, 67, 0.08), 0 1px 2px rgba(60, 64, 67, 0.04);
+  --shadow-card-hover: 0 6px 16px rgba(60, 64, 67, 0.12);
+  --shadow-toast: 0 4px 20px rgba(0, 0, 0, 0.18);
 
   /* Radios Cuadrados (Diseño Limpio y Geométrico) */
   --radius-xs: 2px;
@@ -58,36 +70,48 @@
 }
 
 [data-theme="dark"] {
-  /* Modo Oscuro Minimalista */
+  /* Modo Oscuro con Acentos Vivos */
   --bg-main: #0c0d10;
   --bg-surface: #14161b;
   --bg-surface-variant: #1a1d24;
   --bg-code: #121418;
   --bg-chip: #1f232b;
   --bg-chip-hover: #292e38;
-  --bg-active-pill: #ffffff;
+  --bg-active-pill: #8ab4f8;
   --text-active-pill: #0c0d10;
+
+  --google-blue: #8ab4f8;
+  --google-blue-hover: #a8c7fa;
+  --google-blue-subtle: #1b3761;
+  --google-blue-text: #d3e3fd;
+  --google-blue-border: #284c7e;
+
+  --google-red: #f28b82;
+  --google-red-hover: #f6aea9;
+  --google-red-subtle: #5c1d18;
+  --google-red-text: #fce8e6;
+  --google-red-border: #752924;
+
+  --google-yellow: #fdd663;
+  --google-yellow-hover: #feefc3;
+  --google-yellow-subtle: #573e04;
+  --google-yellow-text: #feefc3;
+  --google-yellow-border: #70520b;
+
+  --google-green: #81c995;
+  --google-green-hover: #a8dab5;
+  --google-green-subtle: #133e21;
+  --google-green-text: #ceead6;
+  --google-green-border: #1c592f;
 
   --border-color: #242832;
   --border-subtle: #1a1d24;
   --border-strong: #373e4d;
-  --border-focus: #ffffff;
+  --border-focus: #8ab4f8;
 
   --text-primary: #f9fafb;
   --text-secondary: #9ca3af;
   --text-muted: #6b7280;
-
-  --accent-color: #38bdf8;
-  --accent-subtle: #082f49;
-  --accent-text: #7dd3fc;
-
-  --success-color: #4ade80;
-  --success-bg: #052e16;
-  --success-border: #166534;
-
-  --warning-bg: #451a03;
-  --warning-border: #78350f;
-  --warning-text: #fde047;
 
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
   --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.3);
@@ -120,6 +144,18 @@ body {
   flex-direction: column;
 }
 
+/* Barra superior delgada con los 4 colores de Google */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #4285F4 0%, #4285F4 25%, #EA4335 25%, #EA4335 50%, #FBBC05 50%, #FBBC05 75%, #34A853 75%, #34A853 100%);
+  z-index: 1000;
+}
+
 .container {
   width: 100%;
   max-width: 1120px;
@@ -130,7 +166,7 @@ body {
 /* Encabezado */
 .site-header {
   position: sticky;
-  top: 0;
+  top: 3px;
   z-index: 100;
   background-color: var(--bg-surface);
   border-bottom: 1px solid var(--border-color);
@@ -158,15 +194,16 @@ body {
   width: 40px;
   height: 40px;
   border-radius: var(--radius-sm);
-  background: var(--text-primary);
-  color: var(--bg-main);
+  background: var(--google-blue);
+  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: var(--font-title);
   font-weight: 800;
   font-size: 0.95rem;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.02em;
+  box-shadow: 0 2px 6px rgba(26, 115, 232, 0.3);
 }
 
 .brand-title {
@@ -183,14 +220,14 @@ body {
 .brand-badge-sub {
   font-family: var(--font-sans);
   font-size: 0.72rem;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
-  background: var(--bg-chip);
-  color: var(--text-secondary);
+  background: var(--google-blue-subtle);
+  color: var(--google-blue-text);
   padding: 0.15rem 0.5rem;
   border-radius: var(--radius-xs);
   letter-spacing: 0.04em;
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--google-blue-border);
 }
 
 .brand-subtitle {
@@ -219,9 +256,9 @@ body {
 }
 
 .btn-icon:hover {
-  color: var(--text-primary);
-  border-color: var(--text-primary);
-  background-color: var(--bg-chip);
+  color: var(--google-blue);
+  border-color: var(--google-blue);
+  background-color: var(--google-blue-subtle);
 }
 
 [data-theme="dark"] .icon-moon { display: none; }
@@ -275,45 +312,121 @@ body {
   display: block;
 }
 
-.home-hero-text {
-  padding: 2rem 2.25rem;
+/* ==========================================================================
+   BANNER DESTACADO: ACADEMIA DE PAU MARTÍ (SKOOL)
+   ========================================================================== */
+.academia-banner-card {
+  background: #ffffff;
+  border: 2px solid var(--google-blue);
+  border-radius: var(--radius-md);
+  padding: 2.25rem 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  box-shadow: 0 4px 14px rgba(26, 115, 232, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+[data-theme="dark"] .academia-banner-card {
+  background: #14161b;
+  border-color: #38bdf8;
+  box-shadow: 0 4px 20px rgba(56, 189, 248, 0.15);
+}
+
+.academia-banner-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 6px;
+  background: linear-gradient(180deg, #4285F4 0%, #EA4335 33%, #FBBC05 66%, #34A853 100%);
+}
+
+.academia-banner-left {
   display: flex;
   flex-direction: column;
   gap: 0.65rem;
-  background: var(--bg-surface);
-  border-top: 1px solid var(--border-color);
+  flex: 1;
 }
 
-.home-hero-badge {
+.academia-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
   align-self: flex-start;
   font-size: 0.78rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--text-secondary);
-  background: var(--bg-chip);
-  padding: 0.2rem 0.6rem;
+  color: var(--google-blue-text);
+  background: var(--google-blue-subtle);
+  padding: 0.25rem 0.65rem;
   border-radius: var(--radius-xs);
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--google-blue-border);
 }
 
-.home-hero-title {
+.academia-title {
   font-family: var(--font-title);
-  font-size: 1.85rem;
+  font-size: 1.6rem;
   font-weight: 800;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.02em;
   color: var(--text-primary);
   line-height: 1.25;
 }
 
-.home-hero-desc {
-  font-size: 1.02rem;
+.academia-desc {
+  font-size: 0.98rem;
   color: var(--text-secondary);
   line-height: 1.6;
-  max-width: 720px;
 }
 
-/* Buscador Minimalista Cuadrado */
+.academia-banner-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.65rem;
+  flex-shrink: 0;
+}
+
+.btn-academia-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background-color: var(--google-blue);
+  color: #ffffff !important;
+  font-family: var(--font-title);
+  font-size: 1.02rem;
+  font-weight: 700;
+  padding: 0.85rem 1.6rem;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  transition: all 0.15s ease;
+  box-shadow: 0 3px 8px rgba(26, 115, 232, 0.35);
+  white-space: nowrap;
+}
+
+.btn-academia-cta:hover {
+  background-color: var(--google-blue-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(26, 115, 232, 0.45);
+}
+
+.academia-link-preview {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--google-blue);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.academia-link-preview:hover {
+  text-decoration: underline;
+}
+
+/* Buscador Minimalista Cuadrado con Detalle Google */
 .google-search-bar {
   position: relative;
   display: flex;
@@ -332,12 +445,12 @@ body {
 }
 
 .google-search-bar:focus-within {
-  border-color: var(--border-focus);
-  box-shadow: 0 0 0 2px var(--bg-chip);
+  border-color: var(--google-blue);
+  box-shadow: 0 0 0 2px var(--google-blue-subtle);
 }
 
 .google-search-icon {
-  color: var(--text-muted);
+  color: var(--google-blue);
   flex-shrink: 0;
   margin-right: 0.8rem;
 }
@@ -375,7 +488,7 @@ body {
 }
 
 .btn-clear:hover {
-  color: var(--text-primary);
+  color: var(--google-red);
 }
 
 /* Barra de Filtros y Estadísticas */
@@ -407,16 +520,17 @@ body {
 }
 
 .pill:hover {
-  background: var(--bg-chip);
-  border-color: var(--border-strong);
-  color: var(--text-primary);
+  background: var(--google-blue-subtle);
+  border-color: var(--google-blue-border);
+  color: var(--google-blue-text);
 }
 
 .pill.active {
-  background: var(--bg-active-pill) !important;
-  color: var(--text-active-pill) !important;
-  border-color: var(--bg-active-pill) !important;
+  background: var(--google-blue) !important;
+  color: #ffffff !important;
+  border-color: var(--google-blue) !important;
   font-weight: 600;
+  box-shadow: 0 2px 6px rgba(26, 115, 232, 0.25);
 }
 
 .stats-counter {
@@ -425,7 +539,7 @@ body {
 }
 
 .stats-counter strong {
-  color: var(--text-primary);
+  color: var(--google-blue);
 }
 
 /* Encabezado de la sección de vídeos */
@@ -441,7 +555,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 0.75rem;
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 2px solid var(--border-subtle);
   padding-bottom: 0.65rem;
 }
 
@@ -459,7 +573,7 @@ body {
 }
 
 /* ==========================================================================
-   CAJITAS DE VÍDEO (CUADRADAS, MINIMALISTAS & ESTRUCTURADAS)
+   CAJITAS DE VÍDEO CON ACENTOS DE COLOR DE GOOGLE
    ========================================================================== */
 .video-grid {
   display: grid;
@@ -470,9 +584,10 @@ body {
 .video-grid-card {
   background: var(--bg-surface);
   border: 1px solid var(--border-color);
+  border-top: 3px solid var(--google-blue);
   border-radius: var(--radius-sm);
   padding: 1.75rem;
-  box-shadow: var(--shadow-sm);
+  box-shadow: var(--shadow-card);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -480,12 +595,73 @@ body {
   text-decoration: none;
   color: inherit;
   transition: all 0.15s ease;
+  position: relative;
 }
 
 .video-grid-card:hover {
-  transform: translateY(-2px);
+  transform: translateY(-3px);
   box-shadow: var(--shadow-card-hover);
-  border-color: var(--border-focus);
+}
+
+/* Variaciones de color por temática */
+.video-grid-card.theme-blue {
+  border-top-color: var(--google-blue);
+}
+.video-grid-card.theme-blue:hover {
+  border-color: var(--google-blue);
+}
+.video-grid-card.theme-blue .card-cat-badge {
+  background: var(--google-blue-subtle);
+  color: var(--google-blue-text);
+  border-color: var(--google-blue-border);
+}
+.video-grid-card.theme-blue .card-action-btn {
+  color: var(--google-blue);
+}
+
+.video-grid-card.theme-green {
+  border-top-color: var(--google-green);
+}
+.video-grid-card.theme-green:hover {
+  border-color: var(--google-green);
+}
+.video-grid-card.theme-green .card-cat-badge {
+  background: var(--google-green-subtle);
+  color: var(--google-green-text);
+  border-color: var(--google-green-border);
+}
+.video-grid-card.theme-green .card-action-btn {
+  color: var(--google-green);
+}
+
+.video-grid-card.theme-red {
+  border-top-color: var(--google-red);
+}
+.video-grid-card.theme-red:hover {
+  border-color: var(--google-red);
+}
+.video-grid-card.theme-red .card-cat-badge {
+  background: var(--google-red-subtle);
+  color: var(--google-red-text);
+  border-color: var(--google-red-border);
+}
+.video-grid-card.theme-red .card-action-btn {
+  color: var(--google-red);
+}
+
+.video-grid-card.theme-yellow {
+  border-top-color: var(--google-yellow);
+}
+.video-grid-card.theme-yellow:hover {
+  border-color: var(--google-yellow);
+}
+.video-grid-card.theme-yellow .card-cat-badge {
+  background: var(--google-yellow-subtle);
+  color: var(--google-yellow-text);
+  border-color: var(--google-yellow-border);
+}
+.video-grid-card.theme-yellow .card-action-btn {
+  color: var(--google-yellow-text);
 }
 
 .card-top-content {
@@ -506,8 +682,6 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  color: var(--text-secondary);
-  background: var(--bg-chip);
   padding: 0.2rem 0.55rem;
   border-radius: var(--radius-xs);
   border: 1px solid var(--border-color);
@@ -551,7 +725,6 @@ body {
   gap: 0.4rem;
   font-size: 0.88rem;
   font-weight: 700;
-  color: var(--text-primary);
   transition: gap 0.15s ease;
 }
 
@@ -593,10 +766,10 @@ body {
   align-items: center;
   gap: 0.45rem;
   font-size: 0.88rem;
-  font-weight: 600;
-  color: var(--text-primary);
-  background: var(--bg-surface);
-  border: 1px solid var(--border-color);
+  font-weight: 700;
+  color: var(--google-blue);
+  background: var(--google-blue-subtle);
+  border: 1px solid var(--google-blue-border);
   text-decoration: none;
   padding: 0.45rem 0.9rem;
   border-radius: var(--radius-sm);
@@ -604,8 +777,8 @@ body {
 }
 
 .btn-back:hover {
-  background: var(--bg-chip);
-  border-color: var(--text-primary);
+  background: var(--google-blue);
+  color: #ffffff;
   transform: translateX(-2px);
 }
 
@@ -622,13 +795,18 @@ body {
 .detail-header {
   background: var(--bg-surface);
   border: 1px solid var(--border-color);
+  border-top: 4px solid var(--google-blue);
   border-radius: var(--radius-sm);
   padding: 2rem 2.25rem;
-  box-shadow: var(--shadow-sm);
+  box-shadow: var(--shadow-card);
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
+
+.detail-header.theme-green { border-top-color: var(--google-green); }
+.detail-header.theme-red { border-top-color: var(--google-red); }
+.detail-header.theme-yellow { border-top-color: var(--google-yellow); }
 
 .detail-header-meta {
   display: flex;
@@ -643,11 +821,11 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  color: var(--text-secondary);
-  background: var(--bg-chip);
+  color: var(--google-blue-text);
+  background: var(--google-blue-subtle);
   padding: 0.2rem 0.6rem;
   border-radius: var(--radius-xs);
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--google-blue-border);
 }
 
 .detail-video-title {
@@ -672,9 +850,9 @@ body {
   gap: 0.4rem;
   font-size: 0.84rem;
   font-weight: 600;
-  color: var(--text-primary);
-  background: var(--bg-surface-variant);
-  border: 1px solid var(--border-color);
+  color: var(--google-blue);
+  background: var(--google-blue-subtle);
+  border: 1px solid var(--google-blue-border);
   padding: 0.35rem 0.75rem;
   border-radius: var(--radius-xs);
   text-decoration: none;
@@ -682,14 +860,14 @@ body {
 }
 
 .detail-doc-link:hover {
-  background: var(--bg-chip);
-  border-color: var(--text-primary);
+  background: var(--google-blue);
+  color: #ffffff;
 }
 
 /* Reglas destacadas */
 .detail-rules-box {
-  background: var(--warning-bg);
-  border: 1px solid var(--warning-border);
+  background: var(--google-yellow-subtle);
+  border: 1px solid var(--google-yellow-border);
   border-radius: var(--radius-xs);
   padding: 1rem 1.25rem;
   margin-top: 0.25rem;
@@ -698,7 +876,7 @@ body {
 .detail-rules-title {
   font-size: 0.86rem;
   font-weight: 700;
-  color: var(--warning-text);
+  color: var(--google-yellow-text);
   margin-bottom: 0.35rem;
 }
 
@@ -720,7 +898,7 @@ body {
   content: "•";
   position: absolute;
   left: 0.25rem;
-  color: var(--warning-text);
+  color: var(--google-yellow-text);
   font-weight: bold;
 }
 
@@ -741,7 +919,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--text-muted);
+  color: var(--google-blue);
 }
 
 .sections-nav-chips {
@@ -764,9 +942,9 @@ body {
 }
 
 .section-chip-link:hover {
-  background: var(--text-primary);
-  color: var(--bg-main);
-  border-color: var(--text-primary);
+  background: var(--google-blue-subtle);
+  color: var(--google-blue-text);
+  border-color: var(--google-blue-border);
 }
 
 /* Contenido de secciones */
@@ -793,7 +971,7 @@ body {
   align-items: center;
   gap: 0.75rem;
   padding-bottom: 0.45rem;
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 2px solid var(--border-subtle);
 }
 
 .detail-prompts-grid {
@@ -818,7 +996,7 @@ body {
 }
 
 .prompt-box:hover {
-  border-color: var(--border-focus);
+  border-color: var(--google-blue);
   box-shadow: var(--shadow-sm);
 }
 
@@ -855,21 +1033,21 @@ body {
 }
 
 .badge-star {
-  background: var(--warning-bg) !important;
-  color: var(--warning-text) !important;
-  border-color: var(--warning-border) !important;
+  background: var(--google-yellow-subtle) !important;
+  color: var(--google-yellow-text) !important;
+  border-color: var(--google-yellow-border) !important;
 }
 
 .badge-base {
-  background: var(--accent-subtle) !important;
-  color: var(--accent-text) !important;
-  border-color: transparent !important;
+  background: var(--google-blue-subtle) !important;
+  color: var(--google-blue-text) !important;
+  border-color: var(--google-blue-border) !important;
 }
 
 .badge-truco {
-  background: var(--success-bg) !important;
-  color: var(--success-color) !important;
-  border-color: var(--success-border) !important;
+  background: var(--google-green-subtle) !important;
+  color: var(--google-green-text) !important;
+  border-color: var(--google-green-border) !important;
 }
 
 /* Acciones en recuadro */
@@ -886,17 +1064,19 @@ body {
   gap: 0.35rem;
   font-family: var(--font-sans);
   font-size: 0.82rem;
-  font-weight: 600;
+  font-weight: 700;
   padding: 0.4rem 0.85rem;
   border-radius: var(--radius-xs);
-  background-color: var(--accent-color);
+  background-color: var(--google-blue);
   color: #ffffff !important;
   text-decoration: none;
-  transition: opacity 0.15s ease;
+  transition: all 0.15s ease;
+  box-shadow: 0 2px 4px rgba(26, 115, 232, 0.25);
 }
 
 .btn-link-action:hover {
-  opacity: 0.9;
+  background-color: var(--google-blue-hover);
+  transform: translateY(-1px);
 }
 
 .btn-copy {
@@ -918,15 +1098,16 @@ body {
 }
 
 .btn-copy:hover {
-  background: var(--text-primary);
-  color: var(--bg-main);
-  border-color: var(--text-primary);
+  background: var(--google-blue-subtle);
+  color: var(--google-blue-text);
+  border-color: var(--google-blue);
 }
 
 .btn-copy.copied {
-  background: var(--success-bg) !important;
-  color: var(--success-color) !important;
-  border-color: var(--success-border) !important;
+  background: var(--google-green-subtle) !important;
+  color: var(--google-green-text) !important;
+  border-color: var(--google-green) !important;
+  font-weight: 700;
   pointer-events: none;
 }
 
@@ -943,15 +1124,15 @@ body {
 /* Resaltado de [variables entre corchetes] */
 .prompt-content .variable-token {
   display: inline-block;
-  background: var(--warning-bg);
-  color: var(--warning-text);
+  background: var(--google-yellow-subtle);
+  color: var(--google-yellow-text);
   font-weight: 600;
   padding: 0.05rem 0.4rem;
   border-radius: var(--radius-xs);
   font-family: var(--font-mono);
   font-size: 0.86em;
   margin: 0 0.15rem;
-  border: 1px solid var(--warning-border);
+  border: 1px solid var(--google-yellow-border);
 }
 
 /* Paginación entre vídeos */
@@ -978,8 +1159,8 @@ body {
 }
 
 .pagination-card:hover {
-  border-color: var(--border-focus);
-  background: var(--bg-surface-variant);
+  border-color: var(--google-blue);
+  background: var(--google-blue-subtle);
   transform: translateY(-1px);
 }
 
@@ -992,7 +1173,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  color: var(--text-muted);
+  color: var(--google-blue);
 }
 
 .pagination-title {
@@ -1032,8 +1213,8 @@ body {
 }
 
 .btn-primary {
-  background-color: var(--text-primary);
-  color: var(--bg-main);
+  background-color: var(--google-blue);
+  color: #ffffff;
   border: none;
   font-family: var(--font-sans);
   font-size: 0.9rem;
@@ -1045,7 +1226,7 @@ body {
 }
 
 .btn-primary:hover {
-  opacity: 0.9;
+  background-color: var(--google-blue-hover);
 }
 
 /* Toast flotante */
@@ -1076,7 +1257,7 @@ body {
 }
 
 .toast svg {
-  color: var(--success-color);
+  color: var(--google-green);
 }
 
 /* Footer */
@@ -1098,7 +1279,7 @@ body {
 }
 
 .footer-home-link {
-  color: var(--text-primary);
+  color: var(--google-blue);
   text-decoration: none;
   font-weight: 600;
 }
@@ -1109,12 +1290,20 @@ body {
 
 /* Responsive */
 @media (max-width: 860px) {
-  .home-hero-text {
-    padding: 1.35rem;
+  .academia-banner-card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.75rem;
   }
 
-  .home-hero-title {
-    font-size: 1.4rem;
+  .academia-banner-right {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .btn-academia-cta {
+    width: 100%;
+    justify-content: center;
   }
 
   .video-grid {

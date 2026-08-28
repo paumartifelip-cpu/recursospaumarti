@@ -104,6 +104,16 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  function getCategoryTheme(cat) {
+    if (!cat) return 'theme-blue';
+    const c = cat.toLowerCase();
+    if (c.includes('imagen') || c.includes('studio')) return 'theme-blue';
+    if (c.includes('automatiz') || c.includes('negocio') || c.includes('servicio')) return 'theme-green';
+    if (c.includes('contenido')) return 'theme-red';
+    if (c.includes('modelo') || c.includes('flash')) return 'theme-yellow';
+    return 'theme-blue';
+  }
+
   function renderHomeVideoCards() {
     const query = currentSearchQuery.trim().toLowerCase();
 
@@ -133,9 +143,10 @@ document.addEventListener('DOMContentLoaded', () => {
     filteredVideos.forEach((video, index) => {
       const totalPrompts = video.sections.reduce((sum, s) => sum + s.items.length, 0);
       const totalSections = video.sections.length;
+      const themeClass = getCategoryTheme(video.category);
 
       const card = document.createElement('a');
-      card.className = 'video-grid-card';
+      card.className = `video-grid-card ${themeClass}`;
       card.href = `#/video/${video.id}`;
 
       card.innerHTML = `
@@ -248,6 +259,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // ==========================================
   function renderVideoDetailPage(video) {
     detailBreadcrumb.textContent = video.title;
+    const themeClass = getCategoryTheme(video.category);
+    detailHeader.className = `detail-header ${themeClass}`;
 
     // Header del vídeo
     detailHeader.innerHTML = `
