@@ -466,6 +466,10 @@ body::before {
   color: var(--google-blue);
 }
 
+.academia-detail-cta {
+  margin-top: 1rem;
+}
+
 /* Buscador Minimalista Cuadrado con Detalle Google */
 .google-search-bar {
   position: relative;
