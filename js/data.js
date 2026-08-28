@@ -575,446 +575,446 @@ const VIDEOS_DATA = [
         ]
       },
       {
-        title: "Business / Premium",
+        title: "Negocios y Marcas Premium",
         items: [
           {
-            title: "Cinematic luxury business scene",
-            badge: "Business",
+            title: "Escena cinematográfica de negocios de lujo",
+            badge: "Negocios",
             text: `Cinematic luxury business scene inside a modern glass office at sunset, confident entrepreneur standing beside a large holographic growth dashboard, vibrant blue and gold lighting, premium atmosphere, blurred city background, ultra-clean composition, high-end advertising look`
           },
           {
-            title: "Futuristic premium product launch",
-            badge: "Product",
+            title: "Lanzamiento futurista de producto tecnológico",
+            badge: "Producto",
             text: `Futuristic premium product launch for a digital business brand, sleek black pedestal with glowing abstract 3D objects, electric blue and neon orange accents, dramatic studio lighting, soft blurred background, bold minimalist composition, luxurious tech campaign aesthetic`
           },
           {
-            title: "Portrait of a successful young founder",
-            badge: "Founder",
+            title: "Retrato de joven fundador exitoso en su oficina",
+            badge: "Fundador",
             text: `Portrait of a successful young founder in a stylish modern workspace, direct eye contact with camera, confident subtle smile, elegant business outfit, warm cinematic lighting, vibrant brand colors, blurred background with screens and creative elements, premium personal brand photography, powerful and aspirational mood`
           }
         ]
       },
       {
-        title: "Editorial / Apple-style Photography",
+        title: "Fotografía Editorial y Estilo Apple",
         items: [
           {
-            title: "Ultra-detailed editorial portrait",
+            title: "Retrato editorial ultra detallado de emprendedor",
             badge: "Editorial",
             text: `Ultra-detailed editorial portrait of a young creative entrepreneur, direct eye contact with camera, natural confident expression, soft daylight wrapping around the face, realistic skin texture, crisp eyes, subtle neutral wardrobe, clean modern interior, gentle background blur, refined color palette, precise composition, premium commercial photography, incredibly sharp and natural`
           },
           {
-            title: "Striking contemporary architecture at golden hour",
-            badge: "Architecture",
+            title: "Arquitectura contemporánea en hora dorada",
+            badge: "Arquitectura",
             text: `Striking contemporary architecture photographed at golden hour, massive curved concrete and glass structure surrounded by open landscape, perfect symmetry, dramatic natural shadows, subtle reflections, minimal human presence for scale, crystal-clear materials and textures, soft atmospheric depth, clean sky, sophisticated editorial composition, high-end architectural photography`
           },
           {
-            title: "Minimalist product photograph (Matte-black speaker)",
-            badge: "Product",
+            title: "Fotografía minimalista de altavoz negro mate",
+            badge: "Producto",
             text: `Minimalist product photograph of a beautifully designed matte-black wireless speaker on a seamless light-gray surface, soft directional studio lighting, delicate shadow, visible micro-textures and material details, perfect edges, subtle reflections, shallow depth of field, clean negative space, refined neutral colors, hyper-realistic premium advertising photography`
           }
         ]
       },
       {
-        title: "Portrait / Architecture / Landscape",
+        title: "Retratos, Arquitectura y Paisajes",
         items: [
           {
-            title: "Close-up portrait of a female designer",
-            badge: "Portrait",
+            title: "Primer plano de diseñadora con luz natural",
+            badge: "Retrato",
             text: `Close-up portrait of a female designer in natural window light, direct eye contact with camera, calm focused expression, ultra-sharp eyes, realistic skin texture, subtle hair detail, clean neutral background with soft blur, elegant minimal styling, balanced composition, refined commercial photography, crisp natural colors, premium editorial look`
           },
           {
-            title: "Aerial landscape of dramatic coastline",
-            badge: "Landscape",
+            title: "Paisaje aéreo de costa escarpada y mar profundo",
+            badge: "Paisaje",
             text: `Aerial landscape of a dramatic coastline with deep blue water, sculpted cliffs and a narrow modern road cutting through the terrain, early morning light, subtle mist, rich natural textures, precise details in rock and vegetation, clean composition, realistic colors, cinematic depth, high-end travel photography`
           },
           {
-            title: "Brushed aluminum laptop on pale stone table",
-            badge: "Product",
+            title: "Portátil de aluminio pulido sobre mesa de piedra",
+            badge: "Producto",
             text: `Premium product photograph of a brushed aluminum laptop resting on a pale stone table beside a glass of water, soft morning sunlight, realistic reflections, visible metal texture, elegant shadows, minimal interior background softly out of focus, precise framing, sophisticated neutral palette, ultra-detailed commercial photography`
           },
           {
-            title: "Luxury mechanical watch macro on dark stone",
+            title: "Macro ultra detallado de reloj mecánico de lujo",
             badge: "Macro",
             text: `Ultra-detailed macro photograph of a luxury mechanical watch resting on smooth dark stone, brushed metal surfaces, sapphire glass reflections, intricate dial textures, soft directional daylight, deep natural shadows, shallow depth of field, extremely crisp details, minimal composition, premium product photography`
           },
           {
-            title: "Modern concrete house in rugged coastal cliff",
-            badge: "Architecture",
+            title: "Casa moderna de hormigón en acantilado costero",
+            badge: "Arquitectura",
             text: `Modern concrete house built into a rugged coastal cliff, floor-to-ceiling glass walls, ocean stretching into the distance, overcast soft light, wet stone textures, subtle reflections, clean geometric composition, realistic materials, atmospheric depth, ultra-sharp architectural photography`
           },
           {
-            title: "Young male creative director outdoors",
-            badge: "Portrait",
+            title: "Retrato potente de director creativo al aire libre",
+            badge: "Retrato",
             text: `Powerful close-up portrait of a young male creative director outdoors, direct eye contact with camera, calm confident expression, natural skin texture, individual hair strands visible, soft cloudy daylight, muted urban background with gentle bokeh, perfectly balanced tones, ultra-realistic editorial photography`
           },
           {
-            title: "Sculptural white staircase in concrete museum",
-            badge: "Architecture",
+            title: "Escalera escultórica blanca en museo minimalista",
+            badge: "Arquitectura",
             text: `A sculptural white staircase inside a minimalist concrete museum, soft natural light pouring through a massive skylight, precise geometric shadows, subtle stone textures, perfectly clean lines, quiet human figure for scale, neutral tones, ultra-detailed architectural photography, crisp and realistic`
           },
           {
-            title: "Premium wireless headphones on natural fabric",
-            badge: "Product",
+            title: "Auriculares inalámbricos premium sobre tela natural",
+            badge: "Producto",
             text: `Close-up product photograph of premium wireless headphones resting on folded natural fabric, brushed aluminum and soft matte textures clearly visible, soft side lighting, delicate realistic shadows, shallow depth of field, warm neutral background, extremely sharp material detail, refined commercial photography`
           },
           {
-            title: "Alpine lake with snow-covered mountains",
-            badge: "Landscape",
+            title: "Gran lago alpino rodeado de montañas nevadas",
+            badge: "Paisaje",
             text: `Vast alpine lake surrounded by dramatic snow-covered mountains, crystal-clear reflections on the water, early morning sunlight touching the peaks, subtle mist above the surface, detailed rock and vegetation textures, natural color balance, strong composition, ultra-sharp landscape photography`
           }
         ]
       },
       {
-        title: "Portraits",
+        title: "Retratos de Emprendedores",
         items: [
           {
-            title: "Modern entrepreneur in clean studio",
-            badge: "Studio",
+            title: "Emprendedor moderno en estudio limpio",
+            badge: "Estudio",
             text: `Ultra-detailed portrait of a modern entrepreneur in a clean studio, direct eye contact with camera, calm confident expression, soft natural daylight, ultra-sharp eyes, realistic skin texture, subtle neutral wardrobe, smooth blurred background, refined tones, premium editorial photography, crisp and natural`
           },
           {
-            title: "Young creative professional in bright workspace",
-            badge: "Workspace",
+            title: "Joven creativa profesional en espacio luminoso",
+            badge: "Espacio de trabajo",
             text: `Close-up portrait of a young creative professional in a bright minimalist workspace, direct eye contact with camera, slight inspiring smile, detailed hair and skin texture, soft window light, elegant styling, blurred background with subtle desk elements, balanced composition, high-end commercial photography, incredibly sharp detail`
           },
           {
-            title: "Business founder outdoors at golden hour",
-            badge: "Golden Hour",
+            title: "Fundador de negocio al aire libre en hora dorada",
+            badge: "Hora Dorada",
             text: `Striking portrait of a business founder outdoors in soft golden-hour light, direct eye contact with camera, poised and self-assured expression, natural skin tones, visible fabric texture in a tailored jacket, softly blurred urban background, clean composition, premium lifestyle photography, ultra-realistic and highly detailed`
           }
         ]
       },
       {
-        title: "Colorful Portraits",
+        title: "Retratos con Colores Vivos",
         items: [
           {
-            title: "Cobalt blue blazer portrait",
-            badge: "Blue",
+            title: "Retrato con americana azul cobalto",
+            badge: "Azul",
             text: `Ultra-detailed portrait of a young entrepreneur, direct eye contact with camera, confident and approachable expression, vivid cobalt blue blazer over a crisp neutral shirt, soft natural daylight, ultra-sharp eyes, realistic skin texture, clean blurred background, refined editorial composition, premium commercial photography, crisp and natural colors`
           },
           {
-            title: "Emerald green sweater portrait",
-            badge: "Green",
+            title: "Retrato con suéter verde esmeralda",
+            badge: "Verde",
             text: `Close-up portrait of a creative professional in a minimalist workspace, direct eye contact with camera, slight inspiring smile, rich emerald green sweater with elegant texture, soft window light, detailed hair and skin, blurred background with subtle modern interior elements, balanced framing, high-end portrait photography, ultra-realistic and highly detailed`
           },
           {
-            title: "Burgundy tailored jacket portrait",
-            badge: "Burgundy",
+            title: "Retrato con chaqueta entallada color burdeos",
+            badge: "Burdeos",
             text: `Striking portrait of a business founder outdoors, direct eye contact with camera, calm self-assured expression, tailored jacket in deep burgundy with subtle fabric texture, soft golden-hour light, natural skin tones, gently blurred urban background, clean composition, premium lifestyle photography, sharp realistic detail and polished color contrast`
           }
         ]
       },
       {
-        title: "Product Photography",
+        title: "Fotografía de Producto",
         items: [
           {
-            title: "Premium smartphone on smooth stone",
-            badge: "Tech",
+            title: "Smartphone premium vertical sobre piedra lisa",
+            badge: "Tecnología",
             text: `Ultra-detailed product photograph of a premium smartphone standing vertically on a smooth stone surface, deep cobalt blue finish, precise metal edges, subtle glass reflections, soft natural side light, delicate realistic shadow, clean blurred background, minimal composition, crisp material textures, refined commercial photography`
           },
           {
-            title: "Skincare bottle on travertine pedestal",
-            badge: "Beauty",
+            title: "Frasco cosmético de cristal ámbar sobre pedestal de travertino",
+            badge: "Belleza",
             text: `Premium skincare bottle in translucent amber glass placed on a pale travertine pedestal, warm sunlight passing through the bottle, soft geometric shadows, visible glass and label textures, muted beige background with gentle blur, elegant composition, ultra-sharp product photography, natural luxurious color palette`
           },
           {
-            title: "Forest green wireless speaker on wooden table",
+            title: "Altavoz inalámbrico verde bosque sobre mesa de madera",
             badge: "Audio",
             text: `Minimalist photograph of a sleek wireless speaker in rich forest green fabric and brushed aluminum, placed on a clean wooden table, soft morning light, realistic texture detail, subtle reflections, shallow depth of field, blurred modern interior in the background, balanced composition, premium advertising photography`
           }
         ]
       },
       {
-        title: "Cities of the World",
+        title: "Ciudades del Mundo",
         items: [
           {
-            title: "Tokyo at blue hour after rain",
-            badge: "Tokyo",
+            title: "Tokio en hora azul tras la lluvia",
+            badge: "Tokio",
             text: `Ultra-realistic street photography in Tokyo at blue hour, glowing storefronts and crosswalk reflections after light rain, pedestrians in natural motion, detailed signs and architecture, realistic skin tones, subtle depth of field, crisp textures, cinematic but natural lighting, premium travel photography`
           },
           {
-            title: "Paris aerial view at sunrise",
-            badge: "Paris",
+            title: "Vista aérea de París al amanecer",
+            badge: "París",
             text: `Ultra-realistic aerial view of Paris at sunrise, warm light hitting classic Haussmann rooftops, the Eiffel Tower in the distance, soft morning haze, intricate architectural detail, natural colors, balanced composition, atmospheric depth, high-end editorial city photography`
           },
           {
-            title: "New York City during golden hour",
-            badge: "NYC",
+            title: "Nueva York en hora dorada con taxis amarillos",
+            badge: "Nueva York",
             text: `Ultra-realistic street scene in New York City during golden hour, yellow taxis, glass towers, detailed brick facades, pedestrians crossing the avenue, warm sunlight between buildings, realistic shadows and reflections, subtle background blur, sharp textures, premium urban photography`
           }
         ]
       },
       {
-        title: "Portraits with Typography",
+        title: "Retratos con Tipografía Integrada",
         items: [
           {
-            title: "Text: BUILD WHAT MATTERS",
-            badge: "Typography",
+            title: "Texto detrás del sujeto: BUILD WHAT MATTERS",
+            badge: "Tipografía",
             text: `Ultra-detailed portrait of a young entrepreneur wearing a vivid cobalt blue jacket, direct eye contact with camera, confident expression, clean studio background, soft natural light, realistic skin texture, premium editorial photography, bold white text behind the subject reading “BUILD WHAT MATTERS”, perfectly legible typography, minimal composition`
           },
           {
-            title: "Text: CREATE MORE",
-            badge: "Typography",
+            title: "Texto en la ropa: CREATE MORE",
+            badge: "Tipografía",
             text: `Close-up portrait of a creative professional in a rich red sweater, direct eye contact with camera, subtle smile, soft window light, crisp facial details, blurred modern interior, refined commercial photography, small elegant text printed on the sweater reading “CREATE MORE”, clean sans-serif typography, realistic fabric integration`
           },
           {
-            title: "Text: FOCUS on Billboard",
-            badge: "Typography",
+            title: "Texto en valla publicitaria: FOCUS",
+            badge: "Tipografía",
             text: `Striking portrait of a founder standing in a modern urban setting, emerald green jacket, direct eye contact with camera, calm confident expression, golden-hour light, softly blurred architecture, ultra-realistic skin and fabric detail, large minimalist billboard in the background displaying the word “FOCUS”, perfectly readable text, premium campaign photography`
           }
         ]
       },
       {
-        title: "Minimal Posters",
+        title: "Pósters Minimalistas",
         items: [
           {
-            title: "Poster: THINK DIFFERENT",
-            badge: "Poster",
+            title: "Póster tipográfico: THINK DIFFERENT",
+            badge: "Póster",
             text: `Minimalist poster on a clean off-white background, large centered black sans-serif text reading “THINK DIFFERENT”, perfect spacing, strong typography, subtle paper texture, generous negative space, refined editorial design, crisp studio lighting, premium modern advertising aesthetic`
           },
           {
-            title: "Poster: MAKE IT SIMPLE",
-            badge: "Poster",
+            title: "Póster en fondo azul cobalto: MAKE IT SIMPLE",
+            badge: "Póster",
             text: `Bold minimal poster with a solid cobalt blue background, oversized white text reading “MAKE IT SIMPLE”, clean geometric sans-serif typography, perfectly centered layout, no extra elements, sharp edges, balanced spacing, high-end contemporary brand campaign design`
           },
           {
-            title: "Poster: CREATE",
-            badge: "Poster",
+            title: "Póster elegante negro: CREATE",
+            badge: "Póster",
             text: `Elegant black poster with a single word “CREATE” in large white uppercase letters, ultra-clean sans-serif font, subtle embossed texture, precise alignment, dramatic simplicity, lots of negative space, premium minimalist graphic design, crisp realistic print detail`
           }
         ]
       },
       {
-        title: "Infographic Posters",
+        title: "Pósters Infográficos de Negocios",
         items: [
           {
-            title: "Infographic: 5 Steps to Build a Strong Brand",
-            badge: "Infographic",
+            title: "Infografía: 5 pasos para construir una marca sólida",
+            badge: "Infografía",
             text: `Minimalist infographic poster on a warm off-white background, clear black sans-serif typography, large headline reading “5 STEPS TO BUILD A STRONG BRAND”, followed by five short sections with bold numbers, concise supporting text, thin divider lines, subtle cobalt blue accents, perfect alignment, generous spacing, clean editorial grid, highly legible text, premium modern business design`
           },
           {
-            title: "Infographic: How Great Ideas Become Great Products",
-            badge: "Infographic",
+            title: "Infografía: Cómo las grandes ideas se convierten en productos",
+            badge: "Infografía",
             text: `Clean business infographic with a soft light-gray background, bold title reading “HOW GREAT IDEAS BECOME GREAT PRODUCTS”, three structured columns labeled “RESEARCH”, “DESIGN”, and “LAUNCH”, each with short explanatory text and simple geometric icons, black typography with muted red accents, precise spacing, minimalist layout, clear hierarchy, refined corporate editorial style`
           },
           {
-            title: "Infographic: The Growth Framework",
-            badge: "Infographic",
+            title: "Infografía estratégica: El marco de crecimiento (Growth Framework)",
+            badge: "Infografía",
             text: `Premium strategy infographic poster with a deep navy background, large white headline reading “THE GROWTH FRAMEWORK”, four horizontal sections titled “ATTRACT”, “ENGAGE”, “CONVERT”, and “RETAIN”, each section containing two short lines of readable supporting text, subtle orange highlights, thin grid lines, clean sans-serif typography, balanced composition, minimal but information-rich design, highly polished modern presentation aesthetic`
           }
         ]
       },
       {
-        title: "Transform Smartphone Product Photo",
+        title: "Transformación de Fotos de Producto",
         items: [
           {
-            title: "Transform on dark walnut surface",
-            badge: "Product Edit",
+            title: "Transformación sobre superficie de nogal oscuro",
+            badge: "Edición Producto",
             text: `Transform the original smartphone product photo into a premium luxury product photograph, preserving the exact product shape, proportions, colors, logo, labels and packaging details. Place the product on a refined dark walnut wooden surface with visible natural grain, soft warm side lighting, subtle realistic shadows, elegant reflections, shallow depth of field, softly blurred sophisticated interior background, rich neutral tones, ultra-sharp material textures, high-end commercial advertising photography, clean composition, realistic and polished`
           },
           {
-            title: "Transform on light oak table with stone & linen",
-            badge: "Product Edit",
+            title: "Transformación sobre mesa de roble claro con piedra y lino",
+            badge: "Edición Producto",
             text: `Transform the original product photo into an elegant editorial product shot, keeping the product completely unchanged and recognizable. Position it on a light oak wooden table beside subtle natural elements such as stone and linen, soft morning window light, delicate shadows, realistic reflections, warm beige and brown palette, blurred background, precise textures, premium lifestyle photography, minimal composition, ultra-realistic detail`
           },
           {
-            title: "Transform on sculptural walnut pedestal",
-            badge: "Product Edit",
+            title: "Transformación sobre pedestal escultórico de nogal",
+            badge: "Edición Producto",
             text: `Transform the original mobile product photo into a refined luxury campaign image, preserving every important detail of the product exactly as photographed. Place it on a sculptural walnut pedestal with a dark wooden background, dramatic soft directional lighting, controlled highlights, deep natural shadows, subtle atmospheric depth, elegant negative space, extremely crisp product details, realistic materials, sophisticated color grading, premium commercial photography`
           }
         ]
       },
       {
-        title: "More Portraits with Text",
+        title: "Más Retratos con Texto de Campaña",
         items: [
           {
-            title: "Text beside subject: CREATE",
-            badge: "Typography",
+            title: "Texto al lado del sujeto: CREATE",
+            badge: "Tipografía",
             text: `Ultra-detailed portrait of a young creative entrepreneur wearing a vivid cobalt blue jacket, direct eye contact with camera, confident expression, soft natural studio lighting, realistic skin texture, clean blurred background, bold minimalist white text beside the subject reading “CREATE”, perfectly legible typography, premium editorial photography`
           },
           {
-            title: "Text in background: BUILD YOUR VISION",
-            badge: "Typography",
+            title: "Texto integrado en el fondo: BUILD YOUR VISION",
+            badge: "Tipografía",
             text: `Close-up portrait of a female founder in a rich emerald green outfit, direct eye contact with camera, calm powerful expression, crisp facial details, soft window light, neutral blurred interior, elegant black text integrated into the background reading “BUILD YOUR VISION”, clean sans-serif typography, refined commercial photography`
           },
           {
-            title: "Text on billboard: START NOW",
-            badge: "Typography",
+            title: "Texto en valla publicitaria: START NOW",
+            badge: "Tipografía",
             text: `Striking portrait of a modern business professional wearing a deep red jacket, direct eye contact with camera, subtle confident smile, natural golden-hour light, softly blurred urban background, large simple billboard behind the subject reading “START NOW”, perfectly readable text, balanced composition, ultra-realistic premium campaign photography`
           }
         ]
       },
       {
-        title: "Background Replacement",
+        title: "Reemplazo de Fondos Hiperrealista",
         items: [
           {
-            title: "Prompt General de reemplazo de fondo hiperrealista",
+            title: "Prompt base de reemplazo de fondo hiperrealista",
             badge: "⭐ Base Español",
             text: `Transforma la imagen original manteniendo intacto al sujeto principal, su pose, proporciones, rostro, ropa e iluminación natural, y reemplaza únicamente el fondo por un paisaje espectacular y totalmente realista, como montañas alpinas, costa con acantilados, lago cristalino, desierto monumental o bosque entre niebla, integrando perspectiva, profundidad, sombras y reflejos de forma natural, con luz realista, colores equilibrados, textura detallada, atmósfera cinematográfica sutil y acabado fotográfico premium, ultra-realistic, highly detailed, seamless background replacement`
           },
           {
-            title: "Alpine mountains and crystal-clear lake",
-            badge: "Alpine",
+            title: "Fondo de montañas alpinas y lago cristalino",
+            badge: "Alpino",
             text: `Replace the background with dramatic alpine mountains and a crystal-clear lake, realistic natural light, seamless integration, ultra-detailed photography.`
           },
           {
-            title: "Ocean cliff at golden hour",
-            badge: "Coast",
+            title: "Fondo de acantilado oceánico en hora dorada",
+            badge: "Costero",
             text: `Replace the background with a spectacular ocean cliff at golden hour, realistic shadows, natural depth, crisp premium photography.`
           },
           {
-            title: "Vast desert landscape and distant mountains",
-            badge: "Desert",
+            title: "Fondo de gran desierto y montañas lejanas",
+            badge: "Desierto",
             text: `Replace the background with a vast desert landscape and distant mountains, soft cinematic light, realistic perspective, high-end photography.`
           }
         ]
       },
       {
-        title: "Background Replacement — Preserve Face",
+        title: "Reemplazo de Fondo — Bloqueo y Protección del Rostro",
         items: [
           {
-            title: "Preserve face: Alpine mountains and lake",
-            badge: "Face Lock",
+            title: "Protección facial: Montañas alpinas y lago",
+            badge: "Bloqueo Facial",
             text: `Replace only the background with dramatic alpine mountains and a crystal-clear lake, keep the boy completely unchanged, do not alter his face at all, realistic light, seamless integration, ultra-detailed photography.`
           },
           {
-            title: "Preserve face: Ocean cliff at golden hour",
-            badge: "Face Lock",
+            title: "Protección facial: Acantilado oceánico al atardecer",
+            badge: "Bloqueo Facial",
             text: `Replace only the background with a spectacular ocean cliff at golden hour, keep the boy completely unchanged, do not alter his face at all, natural shadows, realistic depth, premium photography.`
           },
           {
-            title: "Preserve face: Vast desert landscape",
-            badge: "Face Lock",
+            title: "Protección facial: Desierto monumental",
+            badge: "Bloqueo Facial",
             text: `Replace only the background with a vast desert landscape and distant mountains, keep the boy completely unchanged, do not alter his face at all, soft cinematic light, realistic perspective, high-end photography.`
           }
         ]
       },
       {
-        title: "Background Replacement — Matching Light & Blur",
+        title: "Reemplazo de Fondo — Integración de Luz y Desenfoque",
         items: [
           {
-            title: "Matching light & soft blur: Alpine mountains",
-            badge: "Matched Light",
+            title: "Luz y desenfoque ajustados: Montañas alpinas",
+            badge: "Luz Ajustada",
             text: `Replace only the background with dramatic alpine mountains, keep the boy completely unchanged, do not alter his face, match the original lighting and color temperature, softly blurred background, realistic depth, seamless photography.`
           },
           {
-            title: "Matching light direction: Ocean cliff bokeh",
-            badge: "Matched Light",
+            title: "Dirección de luz ajustada: Acantilado con bokeh natural",
+            badge: "Luz Ajustada",
             text: `Replace only the background with a spectacular ocean cliff at golden hour, keep the boy and his face exactly unchanged, match the original light direction and intensity, natural bokeh background, realistic shadows, seamless integration.`
           },
           {
-            title: "Matching lighting: Desert & distant mountains",
-            badge: "Matched Light",
+            title: "Temperatura de luz ajustada: Desierto y cordillera",
+            badge: "Luz Ajustada",
             text: `Replace only the background with a vast desert and distant mountains, keep the boy completely untouched, preserve his face exactly, match the original lighting perfectly, softly blurred landscape, realistic perspective, premium photography.`
           }
         ]
       },
       {
-        title: "African Village Backgrounds",
+        title: "Fondos de Poblado Africano Auténtico",
         items: [
           {
-            title: "African village with traditional huts",
-            badge: "Village",
+            title: "Poblado africano con chozas tradicionales",
+            badge: "Poblado",
             text: `Place the same person in a realistic African village with traditional huts, keep his face completely unchanged, match the original lighting, softly blurred background, natural colors, seamless photography.`
           },
           {
-            title: "Dusty street in rural African village",
-            badge: "Village",
+            title: "Calle rústica con casas de arcilla y mercado local",
+            badge: "Poblado",
             text: `Place the same person on a dusty street in a rural African village with clay houses and local market stalls, preserve his face exactly, realistic matched light, shallow depth of field, ultra-natural photography.`
           },
           {
-            title: "Village with thatched huts & earthy landscape",
-            badge: "Village",
+            title: "Poblado con cabañas de paja y paisaje cálido",
+            badge: "Poblado",
             text: `Place the same person in a beautiful African village surrounded by traditional thatched huts and warm earthy landscapes, do not alter his face or features, matching sunlight, realistic shadows, soft background blur.`
           },
           {
-            title: "Rural village with traditional wrapped garments",
-            badge: "Documentary",
+            title: "Poblado rural con vestimentas tradicionales",
+            badge: "Documental",
             text: `Place the same person in a realistic rural African village with villagers wearing traditional wrapped garments, keep his face completely unchanged, match the original lighting, softly blurred background, natural documentary photography.`
           },
           {
-            title: "Village path with traditional clothing",
-            badge: "Culture",
+            title: "Sendero de aldea con trajes culturales",
+            badge: "Cultura",
             text: `Place the same person on a village path surrounded by traditional huts and people in culturally inspired traditional clothing, preserve his face exactly, realistic matched light, shallow depth of field.`
           },
           {
-            title: "Authentic African village setting with earthy architecture",
-            badge: "Architecture",
+            title: "Entorno auténtico con arquitectura de barro",
+            badge: "Arquitectura",
             text: `Place the same person in an authentic African village setting with earthy architecture and traditional garments, do not alter his face or body, match the original sunlight, soft background blur, seamless realistic photography.`
           }
         ]
       },
       {
-        title: "Database Infographics",
+        title: "Infografías de Bases de Datos",
         items: [
           {
-            title: "Minimalist database infographic with verified data",
-            badge: "Data",
+            title: "Infografía minimalista con datos verificados",
+            badge: "Datos",
             text: `Minimalist database infographic using only the real data provided, no invented numbers or statistics, clean tables, simple charts, clear labels, white background, black typography, subtle blue accents, modern editorial design.`
           },
           {
-            title: "Professional data dashboard infographic",
-            badge: "Dashboard",
+            title: "Panel de control profesional con métricas reales",
+            badge: "Panel",
             text: `Professional data dashboard infographic built exclusively from the supplied dataset, no fabricated values, organized metrics, bar charts, percentages and tables, clean grid layout, highly readable typography, premium minimal business style.`
           },
           {
-            title: "Clean database visualization poster",
-            badge: "Visualization",
+            title: "Póster de visualización estructurada de datos",
+            badge: "Visualización",
             text: `Clean database visualization poster showing only verified input data, no made-up information, structured rows, key metrics, charts and category labels, soft gray background, bold headings, simple color coding, polished modern infographic design.`
           }
         ]
       },
       {
-        title: "Basketball Mascot",
+        title: "Mascota Deportiva de Baloncesto",
         items: [
           {
-            title: "Close-up portrait of funny basketball mascot",
-            badge: "Mascot",
+            title: "Primer plano de mascota divertida de baloncesto",
+            badge: "Mascota",
             text: `Close-up portrait of a funny basketball team mascot, colorful oversized costume, direct eye contact with camera, playful energetic expression, vibrant blue and orange details, soft arena lights, blurred background, ultra-detailed, sharp premium photography`
           },
           {
-            title: "Cheerful sports mascot character",
-            badge: "Mascot",
+            title: "Personaje deportivo alegre y carismático",
+            badge: "Mascota",
             text: `Portrait close-up of a cheerful sports mascot character for a basketball team, bold expressive face, bright colorful uniform, dynamic and friendly pose, vivid lighting, shallow depth of field, blurred stadium background, crisp high-end commercial photography`
           },
           {
-            title: "Charismatic mascot with big smile & red/yellow costume",
-            badge: "Mascot",
+            title: "Mascota con gran sonrisa y traje rojo y amarillo",
+            badge: "Mascota",
             text: `Ultra-detailed close-up portrait of a charismatic basketball mascot, big smile, exaggerated features, vibrant red and yellow costume, direct look to camera, fun and memorable mood, soft professional lighting, bokeh arena background, premium editorial photography`
           }
         ]
       },
       {
-        title: "Mascot Around the World",
+        title: "Mascota Alrededor del Mundo",
         items: [
           {
-            title: "Times Square, New York",
-            badge: "New York",
+            title: "Mascota en Times Square, Nueva York",
+            badge: "Nueva York",
             text: `The same basketball team mascot in Times Square, New York, colorful costume, playful pose, direct eye contact, vibrant city lights, iconic billboards in the softly blurred background, ultra-detailed, realistic premium photography`
           },
           {
-            title: "Eiffel Tower, Paris",
-            badge: "Paris",
+            title: "Mascota frente a la Torre Eiffel, París",
+            badge: "París",
             text: `The same basketball team mascot in front of the Eiffel Tower in Paris, cheerful expression, bold colorful uniform, stylish portrait composition, warm natural light, elegant city background softly blurred, ultra-realistic high-end photography`
           },
           {
-            title: "Shibuya Crossing, Tokyo",
-            badge: "Tokyo",
+            title: "Mascota en el Cruce de Shibuya, Tokio",
+            badge: "Tokio",
             text: `The same basketball team mascot in Tokyo at Shibuya Crossing, energetic and funny attitude, vivid costume details, direct eye contact, neon signs and busy street softly blurred in the background, sharp premium commercial photography`
           },
           {
-            title: "Santorini, Greece",
+            title: "Mascota en Santorini, Grecia",
             badge: "Santorini",
             text: `The same basketball team mascot in Santorini, Greece, funny and charismatic pose, direct eye contact, vibrant costume, whitewashed buildings and blue domes softly blurred in the background, warm natural light, ultra-detailed realistic photography`
           },
           {
-            title: "Rio de Janeiro, Brazil",
-            badge: "Rio",
+            title: "Mascota en Río de Janeiro, Brasil",
+            badge: "Río",
             text: `The same basketball team mascot in Rio de Janeiro, Brazil, playful expression, colorful team outfit, Christ the Redeemer and lush mountains softly blurred in the background, bright daylight, sharp premium travel photography`
           },
           {
-            title: "Dubai, United Arab Emirates (Burj Khalifa)",
-            badge: "Dubai",
+            title: "Mascota en Dubái frente al Burj Khalifa",
+            badge: "Dubái",
             text: `The same basketball team mascot in Dubai, United Arab Emirates, energetic and humorous attitude, bold costume details, modern skyline with the Burj Khalifa softly blurred in the background, golden-hour light, ultra-realistic high-end photography`
           }
         ]
