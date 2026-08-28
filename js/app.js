@@ -279,6 +279,23 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     header.appendChild(titleGroup);
 
+    // Acciones del recuadro (Abrir enlace si existe + Botón de Copiar)
+    const actionsGroup = document.createElement('div');
+    actionsGroup.className = 'prompt-box-actions';
+
+    if (item.linkUrl) {
+      const linkBtn = document.createElement('a');
+      linkBtn.className = 'btn-link-action';
+      linkBtn.href = item.linkUrl;
+      linkBtn.target = '_blank';
+      linkBtn.rel = 'noopener noreferrer';
+      linkBtn.innerHTML = `
+        <span>Abrir enlace</span>
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+      `;
+      actionsGroup.appendChild(linkBtn);
+    }
+
     // Botón de Copiar
     const copyBtn = document.createElement('button');
     copyBtn.className = 'btn-copy';
@@ -293,7 +310,8 @@ document.addEventListener('DOMContentLoaded', () => {
       copyToClipboard(item.text, copyBtn);
     });
 
-    header.appendChild(copyBtn);
+    actionsGroup.appendChild(copyBtn);
+    header.appendChild(actionsGroup);
     box.appendChild(header);
 
     // Contenido del prompt con resaltado de variables [corchetes]

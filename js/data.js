@@ -564,6 +564,17 @@ const VIDEOS_DATA = [
     description: "Colección curada de prompts fotográficos y visuales de alta gama: estilo Apple, retratos, arquitectura, producto, posters tipográficos, infografías y reemplazo de fondos.",
     sections: [
       {
+        title: "🤖 Asistente GPT Recomendado",
+        items: [
+          {
+            title: "Crea tú tus propios prompts con el asistente Promptero Colectivo",
+            badge: "⭐ Asistente GPT",
+            linkUrl: "https://chatgpt.com/g/g-687a15ef729c81919e6488d749988636-promptero-colectivo",
+            text: `https://chatgpt.com/g/g-687a15ef729c81919e6488d749988636-promptero-colectivo`
+          }
+        ]
+      },
+      {
         title: "Business / Premium",
         items: [
           {
