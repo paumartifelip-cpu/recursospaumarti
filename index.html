@@ -6,22 +6,31 @@
   <title>Recursos de Vídeos — Pau Martí</title>
   <meta name="description" content="Todos los prompts, herramientas y recursos de los vídeos del canal de Pau Martí listos para copiar con un solo clic.">
   
-  <!-- Tipografía limpia y moderna -->
+  <!-- Tipografía Google (Outfit / Product Sans look + Roboto Mono) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Roboto+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <!-- Encabezado -->
+  <!-- Encabezado Estilo Google -->
   <header class="site-header">
     <div class="container header-inner">
       <div class="brand">
-        <div class="brand-avatar">PM</div>
+        <div class="google-logo-badge">
+          <svg class="google-g-icon" viewBox="0 0 24 24" width="24" height="24">
+            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+          </svg>
+        </div>
         <div>
-          <h1 class="brand-title">Recursos de Vídeos</h1>
-          <p class="brand-subtitle">Canal de Pau Martí · Prompts y plantillas listos para copiar</p>
+          <h1 class="brand-title">
+            <span class="g-blue">P</span><span class="g-red">a</span><span class="g-yellow">u</span> <span class="g-green">M</span><span class="g-red">a</span><span class="g-blue">r</span><span class="g-yellow">t</span><span class="g-green">í</span> <span class="brand-badge-sub">Recursos</span>
+          </h1>
+          <p class="brand-subtitle">Prompts, herramientas y plantillas oficiales de YouTube</p>
         </div>
       </div>
       
@@ -34,14 +43,27 @@
     </div>
   </header>
 
-  <!-- Hero / Barra de Búsqueda y Navegación Rápida -->
+  <!-- Hero / Barra de Búsqueda Estilo Google Search y Navegación Rápida -->
   <main class="container main-content">
     <section class="controls-section">
-      <!-- Buscador principal -->
-      <div class="search-box">
-        <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-        <input type="text" id="searchInput" placeholder="Buscar cualquier prompt, vídeo, palabra clave o modelo..." autocomplete="off">
+      <!-- Buscador estilo Google Search -->
+      <div class="search-box google-search-bar">
+        <svg class="search-icon google-search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="text" id="searchInput" placeholder="Buscar en todos los prompts, herramientas o modelos..." autocomplete="off">
         <button id="clearSearchBtn" class="btn-clear" aria-label="Limpiar búsqueda" style="display: none;">&times;</button>
+        <div class="google-sparkle-indicator" title="Búsqueda instantánea con IA">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+            <path d="M12 2L14.4 8.6L21 11L14.4 13.4L12 20L9.6 13.4L3 11L9.6 8.6L12 2Z" fill="url(#google-sparkle-grad)" />
+            <defs>
+              <linearGradient id="google-sparkle-grad" x1="3" y1="2" x2="21" y2="20" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4285F4"/>
+                <stop offset="0.33" stop-color="#EA4335"/>
+                <stop offset="0.66" stop-color="#FBBC05"/>
+                <stop offset="1" stop-color="#34A853"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
       </div>
 
       <!-- Índice de acceso directo a vídeos -->
