@@ -167,6 +167,7 @@ const VIDEOS_DATA = [
   {
     id: "gemini-37-flash",
     title: "Gemini 3.7 Flash",
+    thumbnail: "thumbnails/gemini 3.7.png",
     category: "Modelos y Aplicaciones",
     tags: ["Gemini 3.7", "Webs", "PDFs", "Mini-Apps", "Spark"],
     docUrl: "https://docs.google.com/document/d/1wCIv92J1CR5WX_NF8tAYjOLP8yqIfaK0bd6OHmTT2hk/edit?tab=t.0#heading=h.6m6frdrqfs02",
@@ -314,6 +315,7 @@ const VIDEOS_DATA = [
   {
     id: "google-ai-studio",
     title: "Google AI Studio",
+    thumbnail: "thumbnails/google ai studio.png",
     category: "Google AI Studio",
     tags: ["AI Studio", "Gemini 3.7", "Nano Banana", "Veo", "Audio", "Modelos"],
     docUrl: "https://docs.google.com/document/d/1wCIv92J1CR5WX_NF8tAYjOLP8yqIfaK0bd6OHmTT2hk/edit?tab=t.0#heading=h.niv0ofkh4lyh",
@@ -559,6 +561,7 @@ const VIDEOS_DATA = [
   {
     id: "google-nano-banana-prompts-visuales",
     title: "Google Nano Banana",
+    thumbnail: "thumbnails/nanobanana.png",
     category: "Generación de Imágenes",
     tags: ["Nano Banana", "Imágenes", "Fotografía", "Editorial", "Posters", "Fondos", "Apple Style"],
     description: "Colección curada de prompts fotográficos y visuales de alta gama: estilo Apple, retratos, arquitectura, producto, posters tipográficos, infografías y reemplazo de fondos.",

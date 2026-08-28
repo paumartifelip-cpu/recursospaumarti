@@ -150,6 +150,11 @@ document.addEventListener('DOMContentLoaded', () => {
       card.href = `#/video/${video.id}`;
 
       card.innerHTML = `
+        ${video.thumbnail ? `
+          <div class="card-thumbnail-container">
+            <img src="${escapeHtml(video.thumbnail)}" alt="${escapeHtml(video.title)}" class="card-thumbnail-img" loading="lazy">
+          </div>
+        ` : ''}
         <div class="card-top-content">
           <div class="card-badge-row">
             <span class="card-cat-badge">${escapeHtml(video.category)}</span>
@@ -264,6 +269,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Header del vídeo
     detailHeader.innerHTML = `
+      ${video.thumbnail ? `
+        <div class="detail-thumbnail-container">
+          <img src="${escapeHtml(video.thumbnail)}" alt="${escapeHtml(video.title)}" class="detail-thumbnail-img">
+        </div>
+      ` : ''}
       <div class="detail-header-meta">
         <span class="category-badge">${escapeHtml(video.category)}</span>
         ${video.docUrl ? `
