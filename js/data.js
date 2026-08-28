@@ -26,6 +26,7 @@ const VIDEOS_DATA = [
   {
     id: "tareas-servicios",
     title: "Gemini Spark tareas para servicios",
+    thumbnail: "thumbnails/tareas servicios.png",
     category: "Automatización y Negocio",
     tags: ["Servicios", "Clientes", "Facturación", "Productividad", "Automatizaciones"],
     docUrl: "https://docs.google.com/document/d/1wCIv92J1CR5WX_NF8tAYjOLP8yqIfaK0bd6OHmTT2hk/edit?tab=t.0#heading=h.umluiagdim5g",
@@ -97,6 +98,7 @@ const VIDEOS_DATA = [
   {
     id: "tareas-creadores-contenido",
     title: "Gemini Spark tareas para empresas que crean contenido",
+    thumbnail: "thumbnails/tareas crear contenido.png",
     category: "Creación de Contenido",
     tags: ["Contenido", "YouTube", "Redes Sociales", "Canva", "Shorts"],
     docUrl: "https://docs.google.com/document/d/1wCIv92J1CR5WX_NF8tAYjOLP8yqIfaK0bd6OHmTT2hk/edit?tab=t.0#heading=h.8h5ci16s1wag",
