@@ -51,14 +51,19 @@
          VISTA 1: HOME (CATÁLOGO DE VÍDEOS)
          ========================================== -->
     <section id="homeView" class="view-section">
-      <!-- Hero de bienvenida -->
-      <div class="home-hero">
-        <div class="home-hero-tag">Directorio de Vídeos</div>
-        <h2 class="home-hero-title">Elige un vídeo para ver todos sus prompts y recursos</h2>
-        <p class="home-hero-desc">Cada vídeo tiene su propia página dedicada, limpia y con recuadros listos para copiar con un solo clic.</p>
+      <!-- Hero Principal con Imagen Grande Destacada -->
+      <div class="home-hero-banner">
+        <div class="hero-image-wrapper">
+          <img src="image.png" alt="Google AI Ilustración Pau Martí" class="home-hero-img">
+        </div>
+        <div class="home-hero-text">
+          <div class="home-hero-badge">Biblioteca Oficial de Prompts</div>
+          <h2 class="home-hero-title">Recursos de todos los vídeos de YouTube</h2>
+          <p class="home-hero-desc">Selecciona un vídeo en las cajitas de abajo para ver y copiar todos sus prompts y recursos.</p>
+        </div>
       </div>
 
-      <!-- Buscador estilo Google Search -->
+      <!-- Buscador estilo Google (esquinas cuadradas limpias) -->
       <div class="search-box google-search-bar">
         <svg class="search-icon google-search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
         <input type="text" id="searchInput" placeholder="Buscar en todos los vídeos o prompts..." autocomplete="off">
@@ -78,7 +83,7 @@
         </div>
       </div>
 
-      <!-- Filtros de Categorías -->
+      <!-- Barra de Filtros y Estadísticas -->
       <div class="filter-bar">
         <div class="category-pills" id="categoryPills">
           <!-- Renderizado dinámico -->
@@ -88,9 +93,15 @@
         </div>
       </div>
 
-      <!-- Grid Espacioso de Tarjetas de Vídeos -->
-      <div class="video-grid" id="videoGrid">
-        <!-- Renderizado por app.js -->
+      <!-- Sección de Cajitas de Vídeos -->
+      <div class="section-container">
+        <div class="section-header-row">
+          <h3 class="section-main-heading">Vídeos del Canal</h3>
+          <span class="section-sub-hint">Haz clic en cualquier cajita para entrar al vídeo</span>
+        </div>
+        <div class="video-grid" id="videoGrid">
+          <!-- Renderizado por app.js -->
+        </div>
       </div>
 
       <!-- Vista de resultados de búsqueda en vivo (si se escribe en el buscador) -->
