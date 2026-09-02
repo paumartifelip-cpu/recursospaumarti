@@ -3,6 +3,93 @@
 
 const VIDEOS_DATA = [
   {
+    id: "gemini-38-flash",
+    title: "10 Prompts para probar Gemini 3.8 Flash",
+    thumbnail: "thumbnails/gemini 3.8 flash.png",
+    category: "Modelos y Aplicaciones",
+    tags: ["Gemini 3.8 Flash", "Constructor", "Videojuegos", "Webs", "Automatización", "Educación"],
+    description: "Todos pensados para el constructor (Gemini 3.8 Flash), dentro de la app de Gemini o del buscador de Google. Copia y pega tal cual, o cambia lo que está entre paréntesis por lo tuyo.",
+    rulesTitle: "💡 Consejos y recomendaciones para este vídeo:",
+    rules: [
+      "Todos pensados para el constructor (Gemini 3.8 Flash), dentro de la app de Gemini o del buscador de Google.",
+      "Copia y pega tal cual, o cambia lo que está entre paréntesis por lo tuyo.",
+      "Consejo para el vídeo: Los prompts 1, 2 y 10 son los más 'wow' para grabar en directo, porque el resultado se ve al instante y es visual.",
+      "Enséñalos en pantalla mientras hablas y anima a la gente a pausar el vídeo para copiar el que más le interese."
+    ],
+    sections: [
+      {
+        title: "1. Juegos, Webs y Calculadoras (Prompts 1 al 3)",
+        items: [
+          {
+            title: "1. El videojuego con un solo mensaje (el del vídeo)",
+            badge: "⭐ El del vídeo",
+            text: `Créame un videojuego completo y jugable en un solo archivo HTML, estilo arcade retro, en el que un personaje tiene que esquivar obstáculos que caen desde arriba y sumar puntos. Añade una pantalla de inicio con un botón de "Jugar", un marcador de puntos en la esquina, dificultad que sube poco a poco, y una pantalla de "Game Over" con la puntuación final y un botón para volver a empezar. Que funcione con las flechas del teclado y también tocando la pantalla en el móvil.`
+          },
+          {
+            title: "2. Una web de una página para tu negocio",
+            badge: "⭐ Wow en directo",
+            text: `Créame una página web de una sola pantalla para (mi negocio: una cafetería de especialidad llamada El Grano). Que tenga un titular grande con el nombre y una frase que enamore, una sección con 3 puntos de por qué elegirnos, una lista de productos con precios, un mapa de cómo llegar y un botón de WhatsApp para reservar. Diseño limpio y moderno, colores cálidos, y que se vea perfecta en el móvil. Dámela en un solo archivo HTML listo para publicar.`
+          },
+          {
+            title: "3. Una calculadora útil a medida",
+            badge: "Herramienta",
+            text: `Créame una calculadora sencilla en un solo archivo HTML que me diga cuánto tengo que cobrar por un proyecto. Que me deje meter las horas que calculo dedicarle, mi precio por hora, un porcentaje extra por imprevistos, y que me muestre el total desglosado y bien grande. Diseño claro, con botones fáciles de tocar en el móvil.`
+          }
+        ]
+      },
+      {
+        title: "2. Automatización y Planes de Acción (Prompts 4 y 5)",
+        items: [
+          {
+            title: "4. Automatizar un texto repetitivo",
+            badge: "Atención al cliente",
+            text: `Actúa como mi asistente de atención al cliente. Te voy a dar el mensaje de un cliente y tú me escribes tres respuestas posibles: una muy cordial, una neutra y profesional, y una breve y directa. Que todas suenen humanas, cercanas, y nunca robóticas. Este es el mensaje del cliente: (pega aquí el mensaje). Espera mi mensaje y responde solo con las tres opciones.`
+          },
+          {
+            title: "5. Convertir una idea en un plan paso a paso",
+            badge: "Plan de acción",
+            text: `Quiero (montar un canal de YouTube sobre cocina casera para principiantes) pero no sé por dónde empezar. Créame un plan de acción para los primeros 30 días, dividido en 4 semanas, con tareas concretas para cada semana, ordenadas de lo más importante a lo menos importante. Explícamelo como si yo no tuviera ninguna experiencia, sin palabras técnicas, y al final dime cuál es el único error que hunde a la mayoría de los que empiezan.`
+          }
+        ]
+      },
+      {
+        title: "3. Diseño y Explicaciones Sencillas (Prompts 6 y 7)",
+        items: [
+          {
+            title: "6. Un cartel o flyer con texto exacto",
+            badge: "Diseño e impresión",
+            text: `Créame el diseño de un cartel vertical para (un mercadillo de segunda mano el sábado 15 de marzo). El texto debe decir exactamente, sin cambiar nada: arriba "MERCADILLO SOLIDARIO", en el centro "Sábado 15 de marzo · 10:00 a 18:00", debajo "Plaza Mayor · Entrada gratis", y abajo del todo "Ropa, libros, juguetes y mucho más". Estilo alegre y colorido, fácil de leer desde lejos. Dámelo listo para imprimir.`
+          },
+          {
+            title: "7. Explicar algo difícil para que lo entienda cualquiera",
+            badge: "Explicaciones",
+            text: `Explícame (cómo funciona una hipoteca) como si se lo contaras a alguien que no sabe nada de bancos ni de dinero. Usa una metáfora sencilla del día a día que se quede en la cabeza, no uses ni una sola palabra técnica sin explicarla, y termina con los 3 errores más comunes que comete la gente. Que no ocupe más de lo que se lee en un minuto.`
+          }
+        ]
+      },
+      {
+        title: "4. Organización, Formularios y Simuladores (Prompts 8 al 10)",
+        items: [
+          {
+            title: "8. Organizar información desordenada",
+            badge: "Productividad",
+            text: `Te voy a pegar un montón de notas desordenadas que tengo apuntadas de cualquier manera. Quiero que las organices en una tabla clara con columnas de "Tarea", "Prioridad" (alta, media o baja) y "Cuándo hacerla". Ordénalas de más urgente a menos urgente y, si ves algo que falta o que no tiene sentido, avísame al final. Estas son mis notas: (pega aquí tus notas).`
+          },
+          {
+            title: "9. Un formulario de contacto funcional",
+            badge: "Código web",
+            text: `Créame un formulario de contacto en un solo archivo HTML con campos para nombre, correo electrónico, teléfono y un mensaje. Que valide que el correo esté bien escrito antes de enviar, que muestre un mensaje de "¡Gracias, te responderemos pronto!" al terminar, y que tenga un diseño limpio y profesional que quede bien en cualquier web. Sin errores y listo para usar.`
+          },
+          {
+            title: "10. Un simulador o herramienta educativa",
+            badge: "⭐ Wow interactivo",
+            text: `Créame una página web interactiva en un solo archivo HTML que enseñe (las tablas de multiplicar) a un niño. Que le haga preguntas de una en una, le diga si acierta o falla con un mensaje simpático, lleve la cuenta de aciertos, y al final le enseñe cuántas ha acertado con un dibujo de celebración si le ha ido bien. Colores vivos, letras grandes, y botones fáciles de tocar en una tablet.`
+          }
+        ]
+      }
+    ]
+  },
+  {
     id: "google-modo-ia",
     title: "Google modo IA posicionamiento",
     thumbnail: "thumbnails/google modo ia.png",

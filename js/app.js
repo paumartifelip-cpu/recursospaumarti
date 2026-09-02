@@ -287,7 +287,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <p class="detail-video-desc">${escapeHtml(video.description || '')}</p>
       ${video.rules && video.rules.length > 0 ? `
         <div class="detail-rules-box">
-          <div class="detail-rules-title">💡 3 Reglas para que salgan mejor:</div>
+          <div class="detail-rules-title">${escapeHtml(video.rulesTitle || '💡 3 Reglas para que salgan mejor:')}</div>
           <ul class="detail-rules-list">
             ${video.rules.map(r => `<li>${escapeHtml(r)}</li>`).join('')}
           </ul>
@@ -511,7 +511,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function formatPromptWithVariables(text) {
     const escaped = escapeHtml(text);
-    return escaped.replace(/\[(.*?)\]/g, '<span class="variable-token">[$1]</span>');
+    return escaped
+      .replace(/\[(.*?)\]/g, '<span class="variable-token">[$1]</span>')
+      .replace(/\((mi negocio:[^)]+|pega aquí[^)]+|montar un canal[^)]+|un mercadillo[^)]+|cómo funciona[^)]+|las tablas[^)]+)\)/g, '<span class="variable-token">($1)</span>');
   }
 
   function escapeHtml(str) {
