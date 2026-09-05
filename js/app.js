@@ -513,7 +513,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const escaped = escapeHtml(text);
     return escaped
       .replace(/\[(.*?)\]/g, '<span class="variable-token">[$1]</span>')
-      .replace(/\((mi negocio:[^)]+|pega aquí[^)]+|montar un canal[^)]+|un mercadillo[^)]+|cómo funciona[^)]+|las tablas[^)]+)\)/g, '<span class="variable-token">($1)</span>');
+      .replace(/\((.*?)\)/g, '<span class="variable-token">($1)</span>');
   }
 
   function escapeHtml(str) {

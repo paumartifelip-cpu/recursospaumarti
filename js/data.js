@@ -3,6 +3,99 @@
 
 const VIDEOS_DATA = [
   {
+    id: "google-pics",
+    title: "10 Prompts para probar Google Pics",
+    thumbnail: "thumbnails/google pics.png",
+    category: "Generación de Imágenes",
+    tags: ["Google Pics", "Imágenes", "Edición", "Diseño", "Docs", "Slides", "Colaboración"],
+    description: "Ordenados por las 5 cosas que se explican en el vídeo. Copia y pega tal cual, o cambia lo que está entre paréntesis por lo tuyo. Funcionan dentro de Google Docs, Google Slides o la app de Google Pics.",
+    rulesTitle: "💡 Consejos y recomendaciones para este vídeo:",
+    rules: [
+      "Ordenados por las 5 cosas que se explican en el vídeo.",
+      "Copia y pega tal cual, o cambia lo que está entre paréntesis por lo tuyo.",
+      "Funcionan dentro de Google Docs, Google Slides o la app de Google Pics.",
+      "Consejo para el vídeo: Los prompts 3 (el cartel de matcha) y 5 (despejar la habitación) son los que mejor se ven en directo, porque el 'antes y después' es inmediato y visual.",
+      "Anima a la gente a pausar y copiar el que quiera probar."
+    ],
+    sections: [
+      {
+        title: "COSA 1 — Crear una imagen desde cero con una frase (dentro de Docs o Slides)",
+        items: [
+          {
+            title: "Prompt 1. Portada de informe o documento",
+            badge: "Docs / Slides",
+            text: `Créame una imagen para la portada de un documento sobre (marketing digital para pequeños negocios). Estilo moderno y limpio, colores azules y blancos, con un aspecto profesional que quede bien en un informe de empresa. Formato horizontal.`
+          },
+          {
+            title: "Prompt 2. Ilustración para post de blog",
+            badge: "Ilustración",
+            text: `Genera una ilustración sencilla y amigable de (una persona trabajando desde una cafetería con un portátil), estilo dibujo plano y colores cálidos, para acompañar un texto de blog. Sin texto dentro de la imagen.`
+          }
+        ]
+      },
+      {
+        title: "COSA 2 — Varias versiones a la vez para elegir (el ejemplo del cartel)",
+        items: [
+          {
+            title: "Prompt 3. Cartel con varias versiones",
+            badge: "⭐ Wow en directo",
+            text: `Créame un cartel para (mi club de matcha llamado "The Matcha Club"). Que sea elegante, con tonos verdes y un aire natural y premium. Enséñame varias versiones distintas para que pueda elegir la que más me guste.`
+          },
+          {
+            title: "Prompt 4. Propuestas de logotipo",
+            badge: "Logos",
+            text: `Diséñame un logo sencillo para (una tienda de plantas llamada "Raíces"). Quiero varias propuestas diferentes: unas más minimalistas y otras más ilustradas, para comparar estilos antes de decidir.`
+          }
+        ]
+      },
+      {
+        title: "COSA 3 — Tocar y cambiar/borrar un objeto de una foto (el ejemplo del piso)",
+        items: [
+          {
+            title: "Prompt 5. Despejar y limpiar una habitación",
+            badge: "⭐ Antes y después",
+            text: `(Sube una foto de una habitación) Quita los objetos que están tirados por el suelo y despeja la mesa, dejando el resto de la habitación exactamente igual, sin cambiar los muebles, la luz ni el fondo.`
+          },
+          {
+            title: "Prompt 6. Cambiar color de un objeto en foto de producto",
+            badge: "Producto",
+            text: `(Sube una foto de producto) Cambia el color de (el sofá) a un tono gris claro, sin tocar nada más de la imagen. Mantén las sombras y la luz naturales.`
+          },
+          {
+            title: "Prompt 7. Borrar a una persona del fondo",
+            badge: "Retoque",
+            text: `(Sube una foto tuya) Quita a la persona que aparece al fondo, rellenando ese hueco con el mismo fondo, de forma que no se note que había alguien.`
+          }
+        ]
+      },
+      {
+        title: "COSA 4 — Cambiar y traducir el texto dentro de una imagen",
+        items: [
+          {
+            title: "Prompt 8. Modificar fecha o texto en un cartel",
+            badge: "Edición de Texto",
+            text: `(Sube un cartel que ya tenga texto) Cambia la fecha del cartel a (sábado 20 de abril), sin tocar el diseño ni cambiar el tipo de letra. Que solo cambie ese texto y el resto quede idéntico.`
+          },
+          {
+            title: "Prompt 9. Traducir diseño conservando tipografía",
+            badge: "Traducción",
+            text: `(Sube un flyer en español) Traduce todo el texto de este flyer al inglés, manteniendo exactamente el mismo diseño, los mismos colores y la misma tipografía. Solo cambia el idioma del texto.`
+          }
+        ]
+      },
+      {
+        title: "COSA 5 — Trabajo en equipo sobre la misma imagen",
+        items: [
+          {
+            title: "Prueba 10. Colaboración y edición en tiempo real",
+            badge: "👥 En equipo",
+            text: `Crea cualquier imagen con uno de los prompts de arriba. Luego pulsa el botón de compartir (como en un documento de Google), mete el correo de otra persona con permiso de "Editor", y pídele que entre y le haga un cambio. Veréis cómo los dos podéis editar la misma imagen a la vez, en tiempo real.`
+          }
+        ]
+      }
+    ]
+  },
+  {
     id: "gemini-38-flash",
     title: "10 Prompts para probar Gemini 3.8 Flash",
     thumbnail: "thumbnails/gemini 3.8 flash.png",
