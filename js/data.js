@@ -3,6 +3,204 @@
 
 const VIDEOS_DATA = [
   {
+    id: "google-lyria-musica-ia",
+    title: "Música con IA (Gemini · Lyria 3.5)",
+    thumbnail: "thumbnails/google lyria.png",
+    category: "Música con IA",
+    tags: ["Google Lyria", "Lyria 3.5", "Gemini", "Música con IA", "Audio", "Prompts Musicales", "Canciones"],
+    description: "Para la descripción del vídeo y para probar en directo. Todos siguen la fórmula de los 5 ingredientes: género/época, ritmo/tempo, instrumentos, voz y letra.",
+    rulesTitle: "🎼 La fórmula de los 5 ingredientes para crear música con IA:",
+    rules: [
+      "1. Género y época — Pon un estilo concreto, una mezcla o una década (ej. 'pop de los 80', 'reguetón viejo', 'bolero clásico', 'indie folk', 'lo-fi hip hop', 'salsa de los 70', 'synthwave').",
+      "2. Ritmo / tempo — Marca el pulso y cómo se siente (ej. 'lento de balada', 'alegre y bailable', 'energético y rápido', 'medio tiempo relajado', '90 BPM', '120 BPM', '140 BPM con hi-hats rápidos').",
+      "3. Instrumentos — Pide sonidos o solos concretos para dar textura (ej. 'guitarra española', 'piano suave', 'arpa paraguaya', 'sintetizadores brillantes', '808 potentes', 'palmas y cajón').",
+      "4. Voz — Sexo + textura (timbre) + rango, y cómo canta (ej. 'voz de mujer suave y susurrante', 'barítono masculino grave', 'rockero con voz rasgada', 'rapero con flow', o 'instrumental, sin voz').",
+      "5. Letra — El tema, o tu propia letra, con etiquetas de estructura ([Estrofa 1], [Estribillo], [Puente]) y una palabra que se repita como un mantra en el estribillo."
+    ],
+    sections: [
+      {
+        title: "🎬 Los prompts que salen en el vídeo",
+        items: [
+          {
+            title: "Prompt 1. Indie folk tranquilo (el del perro)",
+            badge: "⭐ El del vídeo",
+            text: `Una canción de indie folk con un ritmo relajado. Guitarra acústica limpia e íntima, piano suave y percusión ligera. Voz de mujer suave y susurrante. Letra sobre pasear al perro un día nublado. [Estribillo] con una palabra que se repita como un mantra.`
+          },
+          {
+            title: "Prompt 2. Disco pop de los 80 (fiesta)",
+            badge: "⭐ Fiesta",
+            text: `Una canción de disco pop de los 80, alegre y muy bailable. Bajo funky, sintetizadores brillantes y palmas. Voz de hombre enérgica. Letra sobre un fin de semana épico con amigos. [Estribillo] pegadizo y repetitivo.`
+          },
+          {
+            title: "Prompt 3. Polca paraguaya (control total en Flow Music)",
+            badge: "Flow Music",
+            text: `Polca paraguaya, neo-folclore, festiva y animada. Arpa paraguaya, guitarra de nailon, bajo acústico y percusión de madera. Voz femenina de alto, orgánica y cálida. 100 BPM.`
+          },
+          {
+            title: "Prompt 4. Versión divertida: indie folk con pingüino",
+            badge: "⭐ Divertido",
+            text: `Indie folk juguetón y tierno, ritmo tranquilo. Ukelele, glockenspiel y silbidos. Voz de mujer dulce y cercana. Letra sobre un pingüino que sale a pasear un día nublado y no encuentra el charco perfecto. [Estribillo] con un \"la-la-la\" que se repita.`
+          }
+        ]
+      },
+      {
+        title: "🎂 Cumpleaños y dedicatorias",
+        items: [
+          {
+            title: "Prompt 5. Cumpleaños alegre",
+            badge: "Cumpleaños",
+            text: `Canción de cumpleaños alegre, estilo pop festivo, tempo animado. Piano, palmas y trompetas. Coro de voces alegres. Letra que felicita a [NOMBRE] por su cumpleaños, con su nombre en el [Estribillo] repetido.`
+          },
+          {
+            title: "Prompt 6. Dedicatoria romántica (bolero)",
+            badge: "Romántica",
+            text: `Bolero romántico y lento. Guitarra española, cuerdas suaves y piano. Voz de hombre cálida y sentida. Letra dedicada a alguien que quieres, agradeciéndole estar ahí. [Estribillo] emotivo y sencillo.`
+          },
+          {
+            title: "Prompt 7. Para un grupo de amigos (himno)",
+            badge: "Himno amigos",
+            text: `Pop rock enérgico y coreable, tempo medio-alto. Guitarras eléctricas, batería potente y coros. Voz de hombre desenfadada. Letra sobre un grupo de amigos inseparables. [Estribillo] tipo himno para cantar todos juntos.`
+          }
+        ]
+      },
+      {
+        title: "🎧 Música de fondo, concentración y streaming",
+        items: [
+          {
+            title: "Prompt 8. Lo-fi para estudiar",
+            badge: "Lo-Fi / Estudio",
+            text: `Lo-fi hip hop relajado para concentrarse, tempo lento y constante. Piano suave, vinilo de fondo, bajo cálido y batería sutil. Instrumental, sin voz. Ambiente de tarde lluviosa.`
+          },
+          {
+            title: "Prompt 9. Música de fondo para vídeos (vlog)",
+            badge: "Fondo Vlog",
+            text: `Pop acústico luminoso y positivo, tempo medio. Guitarra acústica, claps y ukelele. Instrumental, sin voz. Energía alegre de fondo para un vlog de viaje.`
+          },
+          {
+            title: "Prompt 10. Ambiente épico / cinematográfico",
+            badge: "Cinematográfico",
+            text: `Banda sonora épica y cinematográfica, in crescendo. Cuerdas, percusión de tambores grandes y coros. Instrumental. Sensación de aventura y de gran final.`
+          },
+          {
+            title: "Prompt 11. Concentración deep focus",
+            badge: "Deep Focus",
+            text: `Ambient minimalista para concentración profunda, muy lento. Sintetizadores suaves, pads cálidos y notas largas. Instrumental, sin percusión marcada. Sin cambios bruscos.`
+          }
+        ]
+      },
+      {
+        title: "📱 Tonos de llamada y marca",
+        items: [
+          {
+            title: "Prompt 12. Tono de llamada pegadizo",
+            badge: "Tono llamada",
+            text: `Melodía corta y muy pegadiza para tono de llamada, tempo alegre. Marimba y sintes brillantes. Instrumental. Que enganche en los primeros 3 segundos y se pueda repetir en bucle.`
+          },
+          {
+            title: "Prompt 13. Sintonía de marca (jingle de negocio)",
+            badge: "Jingle marca",
+            text: `Jingle corto, moderno y optimista para una marca, tempo animado. Sintes limpios, palmas y un gancho melódico claro. Voz alegre que canta el nombre de la marca en el [Estribillo]. Duración breve, tipo anuncio.`
+          },
+          {
+            title: "Prompt 14. Intro para tu canal de YouTube",
+            badge: "Intro YouTube",
+            text: `Sintonía de introducción con energía, tempo rápido. Sintes potentes, un golpe de graves inicial y percusión electrónica. Instrumental. Corta, memorable, que suba la energía desde el primer segundo.`
+          }
+        ]
+      },
+      {
+        title: "🌎 Estilos latinos",
+        items: [
+          {
+            title: "Prompt 15. Reggaetón melódico",
+            badge: "Reggaetón",
+            text: `Reggaetón melódico, dembow de tempo medio, 95 BPM. Voz masculina de tenor suave con ligero auto-tune, pads envolventes, guitarras eléctricas limpias y sub-graves potentes. Letra sobre una noche de verano. [Estribillo] pegadizo.`
+          },
+          {
+            title: "Prompt 16. Cumbia alegre",
+            badge: "Cumbia",
+            text: `Cumbia alegre y bailable, tempo medio. Acordeón, güira, bajo y teclado. Voz masculina cálida. Letra festiva para bailar en familia. [Estribillo] repetitivo y fácil de cantar.`
+          },
+          {
+            title: "Prompt 17. Bolero clásico",
+            badge: "Bolero",
+            text: `Bolero clásico y nostálgico, muy lento. Guitarra española, contrabajo y piano suave. Voz de hombre grave y aterciopelada. Letra de amor de otra época. [Estribillo] sentido.`
+          },
+          {
+            title: "Prompt 18. Corrido / ranchera moderna",
+            badge: "Ranchera / Corrido",
+            text: `Ranchera moderna con fuerza, tempo medio. Trompetas, guitarra acústica y bajo sexto. Voz masculina potente y con sentimiento. Letra sobre volver al pueblo de origen. [Estribillo] para corear.`
+          }
+        ]
+      },
+      {
+        title: "🎙️ Voz a canción y estilos concretos",
+        items: [
+          {
+            title: "Prompt 19. Rock con voz rasgada",
+            badge: "Rock",
+            text: `Rock enérgico y crudo, tempo rápido. Guitarras eléctricas distorsionadas, batería potente y bajo marcado. Voz de hombre rasgada y potente, tipo rockero. Letra sobre romper con la rutina. [Estribillo] para gritar.`
+          },
+          {
+            title: "Prompt 20. R&B suave y nocturno",
+            badge: "R&B",
+            text: `R&B suave y sensual, tempo lento. Rhodes, sub-graves cálidos, hi-hats sutiles. Voz de mujer aterciopelada con ad-libs. Letra íntima de madrugada. [Estribillo] con una frase que se repita.`
+          },
+          {
+            title: "Prompt 21. Trap moderno",
+            badge: "Trap",
+            text: `Trap moderno, 140 BPM, con hi-hats rápidos. 808 potentes, melodía de campanas y sintes oscuros. Voz masculina con flow y auto-tune. Letra de superación personal. [Estribillo] pegadizo.`
+          },
+          {
+            title: "Prompt 22. Flamenco fusión",
+            badge: "Flamenco Fusión",
+            text: `Flamenco fusión con aire moderno, compás vivo. Guitarra flamenca, palmas, cajón y toques de sintetizador. Voz femenina con quejío. Letra sobre la libertad. [Estribillo] con jaleos.`
+          }
+        ]
+      },
+      {
+        title: "📸 Desde una foto (en Gemini)",
+        items: [
+          {
+            title: "Prompt 23. Foto de un atardecer",
+            badge: "Foto Atardecer",
+            text: `A partir de esta foto, crea una pista tranquila y emotiva. Guitarra acústica y pads suaves. Instrumental o voz muy suave. Que transmita calma de final del día.`
+          },
+          {
+            title: "Prompt 24. Foto de fiesta con amigos",
+            badge: "Foto Fiesta",
+            text: `A partir de esta foto, crea una canción alegre y fiestera, tempo alto, para bailar. Que capte la energía del momento. [Estribillo] eufórico.`
+          },
+          {
+            title: "Prompt 25. Foto de un paisaje de viaje",
+            badge: "Foto Viaje",
+            text: `A partir de esta foto, crea una banda sonora cinematográfica y luminosa, in crescendo. Instrumental. Sensación de aventura y de estar descubriendo un sitio nuevo.`
+          }
+        ]
+      },
+      {
+        title: "💡 Truco pro: escribe tú la letra con etiquetas",
+        items: [
+          {
+            title: "Plantilla de estructura con etiquetas",
+            badge: "💡 Truco Pro",
+            text: `[Estrofa 1]
+(tus versos aquí)
+
+[Estribillo]
+(el gancho — repite una palabra clave como un mantra)
+
+[Estrofa 2]
+(más versos)
+
+[Puente]
+(el giro antes del último estribillo)`
+          }
+        ]
+      }
+    ]
+  },
+  {
     id: "google-pics",
     title: "10 Prompts para probar Google Pics",
     thumbnail: "thumbnails/google pics.png",

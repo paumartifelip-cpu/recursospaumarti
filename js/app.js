@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!cat) return 'theme-blue';
     const c = cat.toLowerCase();
     if (c.includes('imagen') || c.includes('studio')) return 'theme-blue';
-    if (c.includes('automatiz') || c.includes('negocio') || c.includes('servicio')) return 'theme-green';
+    if (c.includes('automatiz') || c.includes('negocio') || c.includes('servicio') || c.includes('música') || c.includes('musica') || c.includes('audio') || c.includes('lyria')) return 'theme-green';
     if (c.includes('contenido')) return 'theme-red';
     if (c.includes('modelo') || c.includes('flash')) return 'theme-yellow';
     return 'theme-blue';
