@@ -3,6 +3,398 @@
 
 const VIDEOS_DATA = [
   {
+    id: "preparate-para-gemini-4",
+    title: "Prepárate para Gemini 4",
+    thumbnail: "thumbnails/gemini 4.png",
+    category: "Modelos y Aplicaciones",
+    tags: ["Gemini 4", "Google Gemini", "Mandar no Preguntar", "Herramientas", "Automatización", "Productividad", "Prompts"],
+    description: "Este vídeo enseña las dos formas nuevas de usar la IA: darle tareas enteras (mandar, no preguntar) y pedirle que te construya una herramienta. Funcionan hoy con el Gemini gratis. Los huecos van entre [CORCHETES] para cambiarlos por lo tuyo.",
+    rulesTitle: "⚡ Reglas de oro y consejos para este vídeo:",
+    rules: [
+      "1. Para qué son — Este vídeo enseña las dos formas nuevas de usar la IA: darle tareas enteras (mandar, no preguntar) y pedirle que te construya una herramienta. Funcionan HOY con el Gemini gratis.",
+      "2. Los huecos van entre [CORCHETES] — Cámbialos por tus propios datos o situación antes de enviar el prompt.",
+      "3. Dile quién eres y para quién es — El contexto lo cambia todo para que el resultado encaje exactamente con lo que necesitas.",
+      "4. Pídele el plan ANTES de que lo haga — Así no se desvía y ves su planteamiento paso a paso antes de ejecutarlo.",
+      "5. Añade 'si te falta algún dato, pregúntame antes de empezar' — Evita que se invente cosas o asuma detalles críticos.",
+      "6. Pídeselo 'fácil, sin palabras técnicas' — Sobre todo si lo vas a enseñar a gente mayor, clientes o usuarios sin conocimientos técnicos.",
+      "7. Encárgale la tarea entera, no le hagas preguntas sueltas — De currante, a jefe.",
+      "8. Para la descripción del vídeo — El Prompt 1 de 'Encargo entero' (las 10 ideas de vídeo para vender) es el que mencionas en el guion. Los demás puedes enseñarlos en pantalla o dejarlos también en la descripción como regalo."
+    ],
+    sections: [
+      {
+        title: "📐 La plantilla base (El esqueleto de 'mandar, no preguntar')",
+        items: [
+          {
+            title: "Plantilla base: El esqueleto universal (Mandar, no preguntar)",
+            badge: "⭐ Plantilla Base",
+            text: `Actúa como mi ayudante. Yo soy: [QUIÉN ERES / A QUÉ TE DEDICAS].
+Quiero que hagas esta tarea entera por mí, no solo responder una pregunta:
+[DESCRIBE LA TAREA].
+
+Hazlo así:
+1) Primero dime tu plan en pasos.
+2) Luego ejecútalo paso a paso.
+3) Al final, dame el resultado listo para usar.
+
+Si te falta algún dato para hacerlo bien, pregúntamelo antes de empezar.
+Explícamelo fácil, en español sencillo, sin palabras técnicas.`
+          }
+        ]
+      },
+      {
+        title: "💼 Prompts de 'encargo entero' (Darle la tarea completa)",
+        items: [
+          {
+            title: "Prompt 1. Ideas de vídeo para vender (El del guion)",
+            badge: "⭐ El del guion / Oro",
+            text: `Actúa como mi ayudante de marketing. Yo me dedico a esto: [A QUÉ TE DEDICAS].
+Quiero vender: [TU PRODUCTO O SERVICIO].
+Dame 10 ideas de vídeo corto para venderlo, y para cada idea escríbeme el gancho,
+la primera frase que se dice a cámara. Explícamelo fácil, sin palabras técnicas.`
+          },
+          {
+            title: "Prompt 2. Organiza tu semana (Asistente personal)",
+            badge: "Asistente Personal",
+            text: `Actúa como mi asistente personal. Estas son mis tareas y compromisos de esta semana,
+sin ningún orden: [PEGA AQUÍ TU LISTA TAL CUAL].
+Organízamelo entero: ordénalo por días y por prioridad, dime qué hago primero cada día,
+avísame de lo que choca o de lo que no me va a dar tiempo, y déjame un plan claro
+de lunes a domingo. Si te falta algún dato, pregúntame antes. Hazlo fácil de leer.`
+          },
+          {
+            title: "Prompt 3. Deja listos los correos de la semana (Secretario)",
+            badge: "Secretario",
+            text: `Actúa como mi secretario. Esta semana tengo que escribir estos correos:
+[LISTA CADA CORREO: A QUIÉN ES Y PARA QUÉ].
+Escríbemelos todos, uno por uno, listos para enviar, cada uno con su asunto.
+Tono: [CERCANO / FORMAL]. Que sean cortos y claros.
+Si te falta algún dato, pregúntame antes de empezar.`
+          },
+          {
+            title: "Prompt 4. Un tema, una semana de contenido (Creador de contenido)",
+            badge: "Creador Contenido",
+            text: `Actúa como mi creador de contenido. Mi tema es: [TU TEMA].
+Mi público es: [A QUIÉN TE DIRIGES].
+Prepárame un plan de contenido para una semana entera: 7 publicaciones, una por día.
+De cada una dame la idea, el gancho de la primera frase y un pie de foto corto.
+Explícamelo fácil, sin palabras técnicas.`
+          },
+          {
+            title: "Prompt 5. Descripción de producto que vende (Redactor de ventas)",
+            badge: "Copy de Ventas",
+            text: `Actúa como redactor de ventas. Mi producto es: [PRODUCTO].
+Lo que tiene de bueno es: [3 COSAS BUENAS].
+Escríbeme la descripción para venderlo por internet: un titular que enganche,
+un párrafo que despierte las ganas de comprarlo y una lista de beneficios
+(beneficios, no características). Termina con una frase que invite a comprar.
+Que suene humano y cercano, nada robótico.`
+          },
+          {
+            title: "Prompt 6. Un plan paso a paso para tu objetivo (Entrenador personal)",
+            badge: "Plan Paso a Paso",
+            text: `Actúa como mi entrenador. Mi objetivo es: [OBJETIVO].
+Quiero conseguirlo en: [CUÁNTO TIEMPO]. Hoy estoy en: [DÓNDE ESTÁS AHORA].
+Hazme un plan paso a paso, semana a semana, con qué hacer cada semana
+y cómo saber si voy bien. Si te falta algún dato, pregúntame antes.
+Explícamelo fácil.`
+          }
+        ]
+      },
+      {
+        title: "🛠️ Prompts de 'construir una herramienta' (Que te lo monte él)",
+        items: [
+          {
+            title: "Prompt 7. Calculadora para tu negocio (Web interactiva)",
+            badge: "🛠️ Calculadora",
+            text: `Hazme una pequeña herramienta que sea una calculadora para mi negocio.
+Tiene que: [QUÉ QUIERES QUE CALCULE, EJ: "a partir del coste y el margen que yo ponga,
+decirme el precio de venta"].
+Dámela como una página web sencilla que pueda abrir en el móvil, con casillas para
+escribir y el resultado bien grande. Fácil de usar para alguien que no sabe de tecnología.`
+          },
+          {
+            title: "Prompt 8. Lista u organizador (Inventario o tareas)",
+            badge: "🛠️ Organizador",
+            text: `Hazme una pequeña herramienta para llevar el control de [QUÉ, EJ: "mi inventario" /
+"mis tareas del día"]. Que pueda añadir cosas, marcarlas como hechas y borrarlas.
+Dámela como una página web sencilla, con botones grandes y clara.
+Pensada para alguien que no sabe de tecnología.`
+          },
+          {
+            title: "Prompt 9. App para ponerle un efecto a tus fotos (Filtro y descarga)",
+            badge: "🛠️ App Fotos",
+            text: `Hazme una pequeña aplicación web donde yo pueda subir una foto y ponerle un efecto
+[EJ: "retro", "blanco y negro", "viejo"]. Con una zona grande para arrastrar la foto
+y un botón para descargar el resultado. Sencilla y que funcione en el móvil.`
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "video-producto-ia",
+    title: "Cómo hacer el VÍDEO de tu producto con IA (ChatGPT · Higgsfield / Astra)",
+    thumbnail: "thumbnails/video producto ia.png",
+    category: "Vídeo con IA",
+    tags: ["Vídeo con IA", "Vídeo de Producto", "Higgsfield", "Astra", "ChatGPT", "Pauwer Bank", "Publicidad", "Anuncios", "Ecommerce", "Spots"],
+    description: "Prompts listos para pegar en ChatGPT (con el plugin de Higgsfield y Astra), usando una sola imagen de tu producto como referencia. Incluye la estructura de anuncio de TV de oro, variaciones de estilo y plantillas universales de alta conversión para cualquier producto.",
+    rulesTitle: "⚡ Cómo usar esto y las reglas de oro para un anuncio impecable:",
+    rules: [
+      "1. Cómo usar esto — 1) Adjunta tu imagen de la Pauwer Bank (o tu producto) en ChatGPT. 2) Pega un prompt de abajo. 3) Deja que Astra te enseñe su plan en 3 líneas y genere el vídeo con Higgsfield. 4) Descarga tu vídeo. Para el siguiente anuncio, nuevo chat o 'ahora hazme este otro' y pegas el siguiente.",
+      "2. Nombre legible siempre — Mantén el nombre de tu marca o producto ('PAUWER BANK' o el tuyo) nítido y sin letras deformadas. Es el error más común de la IA con texto.",
+      "3. Sin logos ni marcas inventadas — No inventes otros logos ni texto aparte del tuyo, y nada de marcas reales de terceros.",
+      "4. Producto centrado y sin obstruir — Mantén el producto protagonista, centrado y con aspecto premium en todo momento.",
+      "5. Solo manos, nunca caras reconocibles — Si aparece una persona, solo planos de manos cuidadas (queda más limpio, profesional y evita deformaciones faciales de la IA).",
+      "6. Fondos simples y sobrios — Coherentes con una estética premium (negro, mármol, madera natural, estudio minimalista).",
+      "7. Menos VFX = Más caro — El producto vendiendo por sí mismo, no fuegos artificiales ni exceso de efectos baratos. Un movimiento de cámara elegante y luz de estudio venden mucho más.",
+      "8. Consejo para el vídeo de YouTube — Para grabar: enseña el prompt 1 de principio a fin (es el que tiene estructura y luce como un anuncio de verdad), y usa el prompt 6 (las tres versiones) para el momento 'y además, con una instrucción, tres anuncios'. Los demás enséñalos por encima como 'y también puedes hacer este estilo, y este otro'."
+    ],
+    sections: [
+      {
+        title: "🎬 Los 6 prompts del vídeo (Caso Pauwer Bank)",
+        items: [
+          {
+            title: "Prompt 1. El Anuncio de Oro (Estructura de anuncio de TV — Empieza por este)",
+            badge: "⭐ El del vídeo / Oro",
+            text: `Eres mi director creativo de publicidad. Con esta imagen de mi producto —una power bank premium con forma de concha de nautilus dorada llamada PAUWER BANK, 20000mAh, eslogan "POWER LIVES FURTHER"— quiero un anuncio cinematográfico de 15 segundos, formato horizontal 16:9, con la calidad de un spot de televisión de una marca tecnológica top.
+
+Constrúyelo en tres actos, por beats de 2-3 segundos:
+
+Acto 1 (0-4s) — Gancho premium. Plano de apertura impactante del producto sobre el pedestal de mármol negro, en penumbra, con un haz de luz cálida que entra y recorre la concha revelando su espiral y el brillo dorado. Movimiento de cámara lento y seguro. Que se sienta caro antes de entender qué es.
+Acto 2 (4-10s) — El producto como héroe. Dos o tres planos de detalle que vendan la calidad: macro de la espiral de la concha, primer plano del nombre PAUWER BANK, la luz recorriendo el acabado dorado, el puerto y los LED de carga encendiéndose uno a uno. Cada plano un movimiento distinto.
+Acto 3 (10-15s) — Resolución y marca. El producto vuelve a un plano heroico completo, aparece el eslogan "POWER LIVES FURTHER" de forma elegante, y cierre limpio sobre el nombre PAUWER BANK.
+
+Estética: oscura, premium, lujosa, tipo Apple/tecnología de gama alta. Luz dramática, dorados cálidos sobre negro. Sin música cursi, sin efectos baratos, sin exceso de VFX.
+
+Mantén PAUWER BANK legible y sin deformar en todo momento, no inventes otros logos ni texto. Enséñame primero tu plan en 3 líneas (los tres actos) y luego genera.`
+          },
+          {
+            title: "Prompt 2. Producto como Héroe (Estilo Apple / Dyson — Puro lujo)",
+            badge: "⭐ Estilo Apple",
+            text: `Eres mi director creativo. Con esta imagen de la PAUWER BANK, quiero un anuncio de 12 segundos, 16:9, al estilo de los vídeos de producto de Apple o Dyson: sin personas, solo el producto, protagonista absoluto.
+
+Un único movimiento continuo y elegante alrededor de la concha: revelación lenta de la espiral, macro del acabado dorado y del texto PAUWER BANK, los LED encendiéndose. Fondo negro absoluto, una sola fuente de luz cálida y controlada. Silencio y elegancia, ritmo pausado. Que cada plano parezca fotografía de producto en movimiento.
+
+Cierre sobre el eslogan "POWER LIVES FURTHER". Mantén el nombre legible y sin deformar, sin logos ni texto inventados. Plan en 3 líneas y genera.`
+          },
+          {
+            title: "Prompt 3. Problema–Solución (El formato que más vende)",
+            badge: "⭐ Problema–Solución",
+            text: `Eres mi director creativo. Con esta imagen de la PAUWER BANK, quiero un anuncio de 15 segundos, formato vertical 9:16 para redes, con estructura problema-solución:
+
+Problema (0-4s): un móvil con la batería al 1%, la pantalla parpadeando, en un momento de tensión (alguien a punto de perder una foto, un mensaje importante). Solo manos, nada de caras. Ambiente agobiante.
+Solución (4-11s): entra la PAUWER BANK. Se conecta el cable, el móvil empieza a cargar rápido, los LED de la power bank se encienden. La tensión se disuelve, la luz se vuelve cálida.
+Cierre (11-15s): plano heroico del producto + eslogan "POWER LIVES FURTHER".
+
+Mantén PAUWER BANK legible y sin deformar, sin marcas de móvil reconocibles ni logos inventados. Plan en 3 líneas y genera.`
+          },
+          {
+            title: "Prompt 4. Estilo de Vida / Viaje (Encaja con marca nómada y libertad)",
+            badge: "Estilo de Vida",
+            text: `Eres mi director creativo. Con esta imagen de la PAUWER BANK, quiero un anuncio de 15 segundos, 9:16, de estilo de vida: la power bank acompañando a alguien que trabaja y viaja. Manos usándola en una mochila, en una cafetería, en un tren, junto a un portátil, con luz natural y cálida. Sin caras, solo manos y ambiente. Sensación de libertad, movimiento, vida en marcha.
+
+El producto siempre bien visible y protagonista en cada escena. Cierre sobre el producto y el eslogan "POWER LIVES FURTHER". Mantén el nombre legible y sin deformar, sin logos de terceros. Plan en 3 líneas y genera.`
+          },
+          {
+            title: "Prompt 5. Corte Dinámico para Redes (Rápido y punchy para TikTok/Reels)",
+            badge: "TikTok / Reels",
+            text: `Eres mi director creativo. Con esta imagen de la PAUWER BANK, quiero un anuncio corto y enérgico de 10 segundos, 9:16, para TikTok e Instagram: cortes rápidos, ritmo alto, mucha energía. Planos veloces de la concha girando, el dorado brillando, los LED, el nombre PAUWER BANK, todo al ritmo. Colores saturados, negro y amarillo dorado, sensación viral.
+
+Cierre rápido y contundente sobre el producto. Mantén el nombre legible y sin deformar, sin logos inventados. Plan en 3 líneas y genera.`
+          },
+          {
+            title: "Prompt 6. Las Tres Versiones (Test A/B: Emocional, Directa y Divertida)",
+            badge: "⭐ Test A/B (3 en 1)",
+            text: `Eres mi director creativo. Con esta imagen de la PAUWER BANK, dame 3 versiones distintas del anuncio de 15 segundos para probar cuál funciona mejor: una emocional (cálida, aspiracional), una directa (producto y beneficio al grano) y una divertida (con un toque de humor). Tú decides el enfoque de cada una. Todas en 9:16, con el producto protagonista y PAUWER BANK legible. Enséñame el plan de las tres y genera.`
+          }
+        ]
+      },
+      {
+        title: "📐 Plantillas maestras universales (Para CUALQUIER producto)",
+        items: [
+          {
+            title: "Prompt 7. Plantilla Maestra Universal (Estructura de 3 Actos para tu producto)",
+            badge: "📐 Plantilla Maestra",
+            text: `Eres mi director creativo de publicidad. Con esta imagen de mi producto —[NOMBRE DE TU PRODUCTO / QUÉ ES: ej. una botella térmica de acero inoxidable, unas zapatillas urbanas, una vela aromática de soja, un sérum facial] de la marca [TU MARCA], con el eslogan "[TU ESLOGAN: ej. Pureza en cada gota / Camina a tu ritmo]"— quiero un anuncio cinematográfico de 15 segundos, formato [horizontal 16:9 / vertical 9:16], con la calidad de un spot publicitario de una marca de primer nivel.
+
+Constrúyelo en tres actos, por beats de 2-3 segundos:
+
+Acto 1 (0-4s) — Gancho visual. Plano de apertura intrigante e impactante del producto en un entorno limpio y premium [ej. sobre una superficie de piedra natural / flotando con luz tenue]. Entrada de luz direccional que recorre las texturas y silueta del producto. Movimiento de cámara suave y cinematográfico.
+Acto 2 (4-10s) — Planos de detalle y calidad. 2 o 3 planos macro que vendan el material y el diseño: primer plano de los acabados, plano detalle del logo o nombre [TU MARCA], y una interacción sutil que demuestre su funcionalidad o beneficio [ej. gotas deslizándose / cierre magnético / manos elegantes interactuando].
+Acto 3 (10-15s) — Cierre heroico y marca. Plano general heroico del producto perfectamente iluminado, aparición sutil del eslogan "[TU ESLOGAN]" y cierre limpio y memorable con el nombre [TU MARCA].
+
+Estética: iluminación de estudio profesional, texturas reales, paleta de colores coherente con la marca, sin efectos baratos ni sobrecarga de VFX.
+Reglas: mantén [TU MARCA] legible y sin deformar, sin marcas de terceros ni logos inventados. Si aparece una persona, solo manos cuidadas. Enséñame primero tu plan en 3 líneas y luego genera.`
+          },
+          {
+            title: "Prompt 8. Plantilla Universal Problema – Solución (Transformación y Alivio)",
+            badge: "📐 Problema–Solución",
+            text: `Eres mi director creativo. Con esta imagen de [NOMBRE DE TU PRODUCTO] de la marca [TU MARCA], quiero un anuncio de 15 segundos en formato vertical 9:16 optimizado para Reels y TikTok, enfocado en el dolor del cliente y su solución inmediata:
+
+Problema (0-4s): Muestra la frustración o problema cotidiano que resuelve el producto [ej. café frío en un termo ordinario / cables enredados / piel reseca / calzado incómodo al caminar]. Ambiente tenso, ritmo visual ágil, solo planos de manos o situaciones cotidianas sin caras reconocibles.
+Solución (4-10s): Transición fluida donde entra en plano [NOMBRE DE TU PRODUCTO]. Demostración clara y visual de cómo soluciona el problema de inmediato [ej. apertura perfecta / aplicación suave / funcionamiento impecable]. La iluminación cambia a un tono cálido, satisfactorio y relajado.
+Cierre (10-15s): Plano heroico de [NOMBRE DE TU PRODUCTO], texto en pantalla "[BENEFICIO CLAVE: ej. 24h Frío Garantizado / Tu piel hidratada todo el día]" y cierre con el logo [TU MARCA].
+
+Mantén el producto centrado, nombre de marca nítido y legible en todo momento, sin logos inventados. Plan en 3 líneas y genera.`
+          },
+          {
+            title: "Prompt 9. Plantilla Universal Unboxing Cinematográfico (E-Commerce y Packaging)",
+            badge: "📦 Unboxing Lujo",
+            text: `Eres mi director creativo. Con esta imagen de [NOMBRE DE TU PRODUCTO] de [TU MARCA], quiero un anuncio de 15 segundos en formato vertical 9:16 con estética de unboxing de lujo y experiencia de apertura de producto:
+
+Acto 1 (0-4s): Primer plano cenital y cinematográfico de una caja de empaque minimalista sobre una mesa de diseño. Unas manos cuidadas retiran la faja protectora o abren la tapa con lentitud y precisión.
+Acto 2 (4-10s): La cámara desciende a nivel del producto mientras es revelado sobre su lecho protector. Manos que lo levantan delicadamente; plano macro del material, acabados prémium y el nombre [TU MARCA] grabado en relieve con reflejos limpios.
+Acto 3 (10-15s): El producto reposa en un plano estético final junto a su packaging, con iluminación de catálogo de lujo. Cierre limpio con el nombre [TU MARCA] y eslogan "[TU ESLOGAN]".
+
+Estética pulcra, colores neutros, sensación táctil muy satisfactoria (ASMR visual). Solo manos, sin caras reconocibles. Plan en 3 líneas y genera.`
+          }
+        ]
+      },
+      {
+        title: "🛍️ Prompts universales por categoría y nicho de producto",
+        items: [
+          {
+            title: "Prompt 10. Botellas, Termos y Bebidas (El ejemplo de la miniatura)",
+            badge: "🥤 Bebidas / Botellas",
+            text: `Eres mi director creativo. Con esta foto de mi botella térmica [o bebida], quiero un spot publicitario cinematográfico de 15 segundos, formato 16:9, al estilo de las grandes campañas de Red Bull, Stanley o Evian:
+
+Gancho (0-4s): Primer plano en cámara lenta de la botella en un ambiente exterior fresco o estudio moderno con luz lateral intensa. Gotas de agua y condensación resbalando por la superficie metálica mate. Se siente la frescura antes de ver el producto entero.
+Desarrollo (4-10s): Travelling circular suave. Manos atléticas que toman la botella, desenroscan la tapa con un sonido satisfactorio de vacío hermético. Salpicadura sutil de agua cristalina iluminada a contraluz que envuelve la botella sin tapar la marca.
+Cierre (10-15s): La botella vuelve al centro en un plano heroico con fondo de naturaleza o ciclorama minimalista, gotas resplandecientes y cierre nítido con el logo y el texto "MÁXIMA FRESCURA. EN CUALQUIER LUGAR".
+
+Luz natural brillante, alto contraste, sensación refrescante y prémium. Mantén el producto centrado y la marca intacta. Plan en 3 líneas y genera.`
+          },
+          {
+            title: "Prompt 11. Cosmética, Skincare y Belleza (Gotas, Textura y Pureza)",
+            badge: "✨ Cosmética / Skincare",
+            text: `Eres mi director creativo. Con esta imagen de mi producto de cosmética [sérum, crema facial o perfume], quiero un anuncio publicitario de 15 segundos en formato 9:16 con la delicadeza y elegancia de marcas como Dior, Glossier o The Ordinary:
+
+Acto 1 (0-4s): Macro cinematográfico a cámara superlenta: una gota traslúcida y densa cae desde el gotero o dosificador hacia una superficie de cristal sobre agua tranquila, generando ondas suaves y perfectas. Iluminación etérea, tonos pastel y blancos luminosos.
+Acto 2 (4-10s): Plano detalle del frasco girando lentamente. La luz incide en el cristal transparente revelando la textura del contenido. Unas manos suaves aplican una pequeña muestra sobre el dorso de la piel, mostrando una absorción sedosa y brillo natural e hidratado.
+Acto 3 (10-15s): Plano de conjunto del envase rodeado de elementos botánicos mínimos (hojas húmedas o piedra de cuarzo blanco). Cierre elegante con el nombre de la marca y el eslogan "PUREZA PARA TU PIEL".
+
+Estética limpia, nórdica, sensación de hidratación y bienestar. Sin caras, solo manos impecables. Nombre de marca 100% legible. Plan en 3 líneas y genera.`
+          },
+          {
+            title: "Prompt 12. Moda, Zapatillas y Sneakers (Cultura Urbana y Dinamismo)",
+            badge: "👟 Sneakers / Moda",
+            text: `Eres mi director creativo. Con esta foto de mis zapatillas [o prenda de moda], quiero un anuncio publicitario de 15 segundos en formato 9:16 con la energía visual de Nike o Salomon:
+
+Acto 1 (0-4s): Primer plano rasante del suelo. La zapatilla impacta el asfalto mojado en slow motion, levantando una cortina sutil de microgotas iluminadas por luces de atardecer urbano.
+Acto 2 (4-10s): Sucesión de planos detalle rítmicos: macro de la textura del tejido transpirable, detalle de las costuras de alta precisión, la flexibilidad de la suela en movimiento y el relieve del logotipo de la marca.
+Acto 3 (10-15s): La zapatilla levita y gira 360 grados en un espacio de estudio oscuro con reflectores direccionales que resaltan su silueta aerodinámica. Cierre contundente con el nombre del modelo y el logotipo nítido.
+
+Ritmo dinámico, iluminación editorial urbana, colores intensos. Sin deformar el calzado ni inventar detalles. Plan en 3 líneas y genera.`
+          },
+          {
+            title: "Prompt 13. Café de Especialidad y Gastronomía Gourmet (Sensorial)",
+            badge: "☕ Gourmet / Café",
+            text: `Eres mi director creativo. Con esta imagen de mi producto gastronómico [paquete de café de especialidad, botella de aceite de oliva, chocolate artesanal], quiero un spot de 15 segundos en formato 9:16 que despierte el apetito y transmita origen artesanal:
+
+Acto 1 (0-4s): Plano detalle de vapor cálido saliendo suavemente con fondo desenfocado. Luz de mañana entrando oblicua por un ventanal de madera rústica, iluminando granos de café [o ingredientes frescos] esparcidos sobre una tabla natural.
+Acto 2 (4-10s): Manos vertiendo el producto con mimo y precisión; caída lenta de líquido dorado o molienda cayendo en cámara lenta. Plano macro del empaque mostrando la textura del papel kraft o cristal y la tipografía de la marca perfectamente nítida.
+Acto 3 (10-15s): El producto protagonista reposa listo para degustar junto al empaque original. Cierre con el mensaje "EL SABOR DE LO AUTÉNTICO" y el nombre de la marca.
+
+Colores cálidos, orgánicos, sensación acogedora y de máxima calidad gastronómica. Sin caras, solo manos. Plan en 3 líneas y genera.`
+          },
+          {
+            title: "Prompt 14. Relojes, Joyería y Accesorios de Lujo (Macro y Reflejos)",
+            badge: "💎 Joyas / Relojes",
+            text: `Eres mi director creativo. Con esta imagen de mi reloj [o pieza de joyería], quiero un anuncio cinematográfico de 12 segundos, formato 16:9, con la sofisticación de Rolex o Cartier:
+
+Inicio (0-4s): Fondo en penumbra sobre piedra pizarra negra. Un único haz de luz fría de precisión barre la pieza, arrancando destellos limpios en el bisel metálico, el cristal de zafiro y los eslabones pulidos.
+Desarrollo (4-8s): Macro extremo del movimiento o de los grabados artesanales. La cámara recorre la corona y el cierre con un travelling milimétrico mientras la luz va descubriendo la textura del material.
+Cierre (8-12s): Plano heroico completo en ángulo de tres cuartos, perfectamente equilibrado. Cierre con el nombre de la marca grabado en tipografía noble y limpia.
+
+Silencio visual, máxima precisión técnica, sensación de lujo atemporal. Sin efectos artificiales. Plan en 3 líneas y genera.`
+          },
+          {
+            title: "Prompt 15. Hogar, Decoración y Mobiliario (Ambiente Cálido)",
+            badge: "🛋️ Hogar / Decoración",
+            text: `Eres mi director creativo. Con esta imagen de mi producto de hogar [lámpara de diseño, sillón, difusor o accesorio decorativo], quiero un spot publicitario de 15 segundos en 9:16 con el estilo visual de Zara Home o Kave Home:
+
+Acto 1 (0-4s): Gran plano general de un salón moderno, luminoso y sereno. La luz de media tarde proyecta sombras geométricas suaves a través de cortinas de lino blanco.
+Acto 2 (4-10s): La cámara se desliza con suavidad hacia el producto, que armoniza el espacio. Planos de detalle que muestran las vetas de la madera, la textura del tejido o el brillo cerámico. Unas manos colocan un detalle al lado o interactúan con su encendido/uso.
+Acto 3 (10-15s): Plano medio que resume el confort del espacio con el producto como protagonista indiscutible. Cierre con el nombre de la marca y la frase "DISEÑADO PARA TU HOGAR".
+
+Tonos tierra, neutros y cálidos, atmósfera relajante y elegante. Plan en 3 líneas y genera.`
+          },
+          {
+            title: "Prompt 16. Tecnología, Auriculares y Gadgets de Precisión",
+            badge: "🎧 Gadgets Tech",
+            text: `Eres mi director creativo. Con esta imagen de mi producto tecnológico [auriculares inalámbricos, altavoz portátil, ratón ergonómico], quiero un spot publicitario de 15 segundos en 16:9 con la estética de Teenage Engineering o Sony:
+
+Acto 1 (0-4s): Plano cenital sobre mesa de trabajo minimalista con superficie mate. El gadget reposa en el centro mientras se activa un sutil indicador luminoso o LED de estado con un sonido nítido.
+Acto 2 (4-10s): Planos de detalle rotatorios a cámara lenta: textura del aluminio pulido, rejilla acústica metálica, bisagras de precisión y logotipo grabado a láser. Unas manos interactúan con un botón háptico o dial giratorio.
+Acto 3 (10-15s): Plano heroico flotante con iluminación cenital suave y sombras limpias. Cierre con el nombre de la marca y el eslogan "INGENIERÍA PARA TUS SENTIDOS".
+
+Minimalismo nórdico-tecnológico, alta precisión industrial, elegancia funcional. Plan en 3 líneas y genera.`
+          }
+        ]
+      },
+      {
+        title: "🚀 Formatos publicitarios de alta conversión (E-Commerce y Redes)",
+        items: [
+          {
+            title: "Prompt 17. Comparativa Visual (Tu Producto vs. Lo Ordinario)",
+            badge: "⚡ Comparativa",
+            text: `Eres mi director creativo. Con esta imagen de mi producto [NOMBRE DEL PRODUCTO], quiero un anuncio de 15 segundos en formato vertical 9:16 con formato de pantalla dividida o transición antes/después:
+
+Acto 1 (0-5s): A la izquierda [o en los primeros segundos], un producto genérico y corriente fallando o viéndose desgastado y de mala calidad (colores apagados, material endeble).
+Acto 2 (5-11s): Transición enérgica con barrido limpio hacia mi producto. Colores vivos, acabados robustos y prémium, demostrando al instante su superioridad en resistencia, velocidad o estética.
+Acto 3 (11-15s): El producto protagonista al frente ocupando el centro de la pantalla con el texto "LA DIFERENCIA ESTÁ EN LOS DETALLES" y el nombre de la marca.
+
+Enfoque comercial directo, contrastante y persuasivo. Mantén la marca totalmente legible y sin deformaciones. Plan en 3 líneas y genera.`
+          },
+          {
+            title: "Prompt 18. Formato UGC Orgánico (Grabación Realista con Móvil)",
+            badge: "📱 Estilo UGC Real",
+            text: `Eres mi director creativo. Con esta imagen de [NOMBRE DEL PRODUCTO], quiero un vídeo publicitario de 15 segundos en formato 9:16 que parezca un contenido orgánico grabado por un cliente real (formato UGC / User Generated Content) para TikTok y Reels:
+
+Acto 1 (0-4s): Gancho casual. La cámara en primera persona (POV) sostiene o apunta al producto recién sacado de su caja en un escritorio o encimera bien iluminada. Movimiento de cámara natural a pulso (sin vibración exagerada, pero creíble).
+Acto 2 (4-10s): Demostración en vivo y sin filtros de uso: manos que tocan el producto, prueban su función principal en tiempo real y muestran lo fácil y satisfactorio que resulta.
+Acto 3 (10-15s): La persona sostiene el producto hacia la cámara en señal de recomendación satisfecha. Aparece en texto nativo tipo subtítulo: "La mejor compra del año ⭐⭐⭐⭐⭐" y la marca.
+
+Estética fresca, hiperrealista, cero corporativa. Sin rostros visibles, solo manos naturales. Plan en 3 líneas y genera.`
+          },
+          {
+            title: "Prompt 19. Campaña Flash / Descuento / Black Friday",
+            badge: "🔥 Campaña Flash",
+            text: `Eres mi director creativo. Con esta imagen de [NOMBRE DE TU PRODUCTO], quiero un anuncio de impacto rápido de 10 segundos en 9:16 para campañas de venta flash, rebajas o Black Friday:
+
+Acto 1 (0-3s): Pantalla negra que se rompe con un destello de luz sobre el producto. Tipografía limpia y grande anunciando "[OFERTA ESPECIAL / -30% HOY]". Ritmo visual muy acelerado.
+Acto 2 (3-7s): Cortes dinámicos cada segundo mostrando 3 ángulos clave del producto con iluminación vibrante y reflejos potentes sobre la marca.
+Acto 3 (7-10s): Plano frontal heroico con el botón simulado "COMPRAR AHORA" o "UNIDADES LIMITADAS" y el nombre de marca en grande.
+
+Mucha energía, alta retención para Instagram Stories y TikTok Ads. El producto siempre en el centro y la marca 100% nítida. Plan en 3 líneas y genera.`
+          },
+          {
+            title: "Prompt 20. Reseña 5 Estrellas y Prueba Social",
+            badge: "⭐ Reseña 5 Estrellas",
+            text: `Eres mi director creativo. Con esta imagen de [NOMBRE DEL PRODUCTO], quiero un anuncio publicitario de 15 segundos en 9:16 fundamentado en prueba social y satisfacción del cliente:
+
+Acto 1 (0-4s): Apertura con el producto en movimiento elegante mientras se superponen en pantalla 5 estrellas doradas animadas de calificación perfecta.
+Acto 2 (4-10s): Se muestra una cita corta de cliente destacado: '"El mejor acabado que he visto jamás. Vale cada céntimo."' mientras la cámara hace planos macro de las partes más destacadas del producto.
+Acto 3 (10-15s): La cita se desvanece dejando el producto en plano estelar con el mensaje "+10.000 CLIENTES SATISFECHOS" y el logotipo oficial de la marca.
+
+Tono de autoridad, credibilidad y sofisticación. Marca legible y sin deformar. Plan en 3 líneas y genera.`
+          },
+          {
+            title: "Prompt 21. Generador 3-en-1 Multiversión Universal (Test A/B para cualquier producto)",
+            badge: "⭐ Test A/B Universal",
+            text: `Eres mi director creativo de agencia publicitaria. Con esta imagen de mi producto [NOMBRE DEL PRODUCTO], crea simultáneamente 3 conceptos de anuncio publicitario de 15 segundos en formato [9:16 / 16:9] para hacer un test A/B en redes sociales:
+
+Versión A — Emocional & Aspiracional: Enfocada en cómo hace sentir al usuario, estilo de vida, luz cálida y beneficio emocional.
+Versión B — Directa & Demostrativa: Foco 100% en el producto, materiales, primer plano de funcionamiento y datos técnicos clave.
+Versión C — Humor / Hook disruptivo: Apertura con un contraste divertido o inesperado en los primeros 2 segundos que capture de inmediato la atención del feed.
+
+Mantén en las 3 versiones el producto como héroe absoluto, el nombre de la marca legible y sin deformar, y sin rostros reconocibles (solo manos). Presenta el desglose de los 3 planes y genera.`
+          }
+        ]
+      }
+    ]
+  },
+  {
     id: "google-lyria-musica-ia",
     title: "Música con IA (Gemini · Lyria 3.5)",
     thumbnail: "thumbnails/google lyria.png",
