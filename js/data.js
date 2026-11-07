@@ -3,6 +3,93 @@
 
 const VIDEOS_DATA = [
   {
+    id: "google-pics-2-editar-texto",
+    title: "Google Pics 2: Editar Texto en Imágenes — Prompts para Copiar y Pegar",
+    thumbnail: "thumbnails/google pics 2 editar texto.png",
+    category: "Generación de Imágenes",
+    tags: ["Google Pics 2","Google Pics","Editar Texto","Imágenes","Carteles","Diseño","Prompts"],
+    description: "Cómo editar el texto dentro de una imagen con Google Pics 2. Se hace en orden sobre una sola imagen: primero creas el cartel base y luego le haces 5 cambios (añadir texto, cambiar precio, fecha, palabra y traducir) sin tocar el diseño. Copia y pega cada prompt.",
+    rulesTitle: "⚡ Cómo se usa:",
+    rules: [
+      "Todo se hace EN ORDEN sobre una sola imagen: primero creas la imagen base (Paso 1) y luego le haces los 5 cambios.",
+      "Pega cada prompt en la barra de abajo de Google Pics y envía.",
+      "Los cambios 2, 3, 4 y 5 piden mantener tipografía, color, tamaño y posición: no los cambies para que el diseño no se toque.",
+      "Los backups son por si algo sale raro en directo."
+    ],
+    sections: [
+      {
+        title: "🖼️ Paso 1 — Crear la imagen base",
+        items: [
+          {
+            title: "Paso 1. Crear el cartel base",
+            badge: "Imagen Base 4:5",
+            text: `Crea una imagen realista y con buena luz para un cartel de Instagram vertical 4:5. Una cafetería acogedora: en primer plano una taza de café con leche con arte latte sobre una mesa de madera, fondo cálido y desenfocado. Integra sobre la imagen, como un cartel elegante y legible en español, este texto: arriba el título grande "CATA DE CAFÉ", debajo en mediano "Sábado 18:00", y abajo destacado el precio "12,90 €". Tipografía moderna que combine con el ambiente y buen contraste para que el texto se lea bien.`
+          }
+        ]
+      },
+      {
+        title: "✏️ Los 5 cambios de texto (en orden)",
+        items: [
+          {
+            title: "Cambio 1. Añadir un texto que no estaba",
+            badge: "Añadir Texto",
+            text: `Sobre esta imagen, añade en la esquina inferior el texto "Plazas limitadas", con una tipografía que combine con el resto y buen contraste, en español.`
+          },
+          {
+            title: "Cambio 2. Cambiar el precio",
+            badge: "Cambiar Precio",
+            text: `Cambia el precio "12,90 €" por "9,90 €" manteniendo exactamente la misma tipografía, color, tamaño y posición.`
+          },
+          {
+            title: "Cambio 3. Cambiar la fecha o la hora",
+            badge: "Cambiar Fecha y Hora",
+            text: `Cambia "Sábado 18:00" por "Domingo 19:00" manteniendo la misma tipografía y el mismo diseño.`
+          },
+          {
+            title: "Cambio 4. Cambiar una palabra",
+            badge: "Cambiar Palabra",
+            text: `Cambia el título "CATA DE CAFÉ" por "CATA DE VINOS" manteniendo exactamente la misma tipografía, tamaño y posición.`
+          },
+          {
+            title: "Cambio 5. Traducir sin tocar el diseño",
+            badge: "Traducir Texto",
+            text: `Traduce todo el texto de esta imagen al inglés manteniendo la misma tipografía, los mismos colores y la misma disposición.`
+          }
+        ]
+      },
+      {
+        title: "⚡ Bonus rápido",
+        items: [
+          {
+            title: "Bonus. Poner tu usuario",
+            badge: "Tu @usuario",
+            text: `Añade abajo del todo, pequeño y discreto, el texto "@tucafeteria" con una tipografía sencilla que no reste protagonismo.`
+          }
+        ]
+      },
+      {
+        title: "🛟 Backups (por si algo sale raro en vivo)",
+        items: [
+          {
+            title: "Backup 1. Precio alternativo",
+            badge: "Precio Alternativo",
+            text: `Cambia "12,90 €" por "15,00 €" manteniendo tipografía, color y posición.`
+          },
+          {
+            title: "Backup 2. Idioma alternativo",
+            badge: "Francés",
+            text: `Traduce el texto de la imagen al francés manteniendo tipografía, colores y disposición.`
+          },
+          {
+            title: "Backup 3. Palabra alternativa",
+            badge: "Palabra Alternativa",
+            text: `Cambia "CATA DE CAFÉ" por "CATA DE QUESOS" manteniendo la misma tipografía y posición.`
+          }
+        ]
+      }
+    ]
+  },
+  {
     id: "50-skills-gemini-parte-2",
     title: "50 Nuevas Habilidades de Google Gemini (Parte 2) — Prompts para Copiar y Pegar",
     thumbnail: "thumbnails/50 nuevas habilidades gemini.png",
